@@ -38,12 +38,12 @@ const Outlander: DataFaction = {
   appreciative: true,
   homeIconPath: 'World/WorldObjects/DefaultFactionBase',
   expandingIconTexture: 'World/WorldObjects/Expanding/Town',
+  colorSpectrum: ['rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)'],
   allMemberKinds: ['Villager', 'GrenadierDestructive', 'MercenarySlasher', 'TownGuard', 'TownCouncilman', 'MercenaryGunner', 'MercenaryElite', 'TownTrader'],
-  apparelStuffs: [],
+  apparelStuffs: null,
   caravanTraderKinds: ['Caravan_Outlander_BulkGoods', 'Caravan_Outlander_CombatSupplier', 'Caravan_Outlander_Exotic', 'Caravan_Outlander_PirateMerchant'],
   visitorTraderKinds: ['Visitor_Outlander_Standard'],
   baseTraderKinds: ['Base_Outlander_Standard'],
-  colorSpectrum: ['rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)'],
   defName: 'Outlander'
 }
 

@@ -38,12 +38,12 @@ const Insect: DataFaction = {
   appreciative: true,
   homeIconPath: 'World/WorldObjects/DefaultFactionBase',
   expandingIconTexture: null,
-  allMemberKinds: [],
-  apparelStuffs: [],
+  colorSpectrum: null,
+  allMemberKinds: null,
+  apparelStuffs: null,
   caravanTraderKinds: [],
   visitorTraderKinds: [],
   baseTraderKinds: [],
-  colorSpectrum: [],
   defName: 'Insect'
 }
 

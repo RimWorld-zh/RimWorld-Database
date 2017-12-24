@@ -11,6 +11,21 @@ const WaterMovingShallow: DataTerrain = {
   designationHotKey: null,
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/WaterShallowRamp',
+  color: 'rgba(255, 255, 255, 1)',
+  affordances: [],
+  takeFootprints: false,
+  takeSplashes: true,
+  avoidWander: true,
+  holdSnow: false,
+  extinguishesFire: true,
+  changeable: false,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: null,
+  terrainFilthDef: null,
+  acceptTerrainSourceFilth: false,
+  acceptFilth: false,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +48,10 @@ const WaterMovingShallow: DataTerrain = {
       value: 0.0036
     }
   ],
+  costList: null,
+  walkSpeed: 0.52,
+  removable: false,
+  isCarpet: false,
   defName: 'WaterMovingShallow'
 }
 

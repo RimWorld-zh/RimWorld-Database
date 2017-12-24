@@ -11,6 +11,24 @@ const BrokenAsphalt: DataTerrain = {
   designationHotKey: null,
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/BrokenAsphalt',
+  color: 'rgba(255, 255, 255, 1)',
+  affordances: [
+    TerrainAffordance.Light,
+    TerrainAffordance.Heavy
+  ],
+  takeFootprints: false,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: null,
+  terrainFilthDef: null,
+  acceptTerrainSourceFilth: false,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +51,10 @@ const BrokenAsphalt: DataTerrain = {
       value: 0.0036
     }
   ],
+  costList: null,
+  walkSpeed: 1,
+  removable: true,
+  isCarpet: false,
   defName: 'BrokenAsphalt'
 }
 

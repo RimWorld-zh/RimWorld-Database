@@ -11,6 +11,25 @@ const WoodPlankFloor: DataTerrain = {
   designationHotKey: 'Misc7',
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/WoodFloor',
+  color: 'rgba(0, 0, 0, 1)',
+  affordances: [
+    TerrainAffordance.Light,
+    TerrainAffordance.Heavy,
+    TerrainAffordance.SmoothHard
+  ],
+  takeFootprints: false,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: 'BurnedWoodPlankFloor',
+  terrainFilthDef: null,
+  acceptTerrainSourceFilth: true,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +52,15 @@ const WoodPlankFloor: DataTerrain = {
       value: 3.906
     }
   ],
+  costList: [
+    {
+      defName: 'WoodLog',
+      value: 3
+    }
+  ],
+  walkSpeed: 1,
+  removable: true,
+  isCarpet: false,
   defName: 'WoodPlankFloor'
 }
 

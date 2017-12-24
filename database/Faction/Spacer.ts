@@ -38,12 +38,12 @@ const Spacer: DataFaction = {
   appreciative: true,
   homeIconPath: null,
   expandingIconTexture: null,
-  allMemberKinds: [],
+  colorSpectrum: null,
+  allMemberKinds: null,
   apparelStuffs: ['Synthread', 'Hyperweave'],
   caravanTraderKinds: [],
   visitorTraderKinds: [],
   baseTraderKinds: [],
-  colorSpectrum: [],
   defName: 'Spacer'
 }
 

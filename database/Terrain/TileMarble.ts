@@ -11,6 +11,25 @@ const TileMarble: DataTerrain = {
   designationHotKey: null,
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/TileStone',
+  color: 'rgba(0, 0, 0, 1)',
+  affordances: [
+    TerrainAffordance.Light,
+    TerrainAffordance.Heavy,
+    TerrainAffordance.SmoothHard
+  ],
+  takeFootprints: false,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: null,
+  terrainFilthDef: null,
+  acceptTerrainSourceFilth: true,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +52,15 @@ const TileMarble: DataTerrain = {
       value: 11.56
     }
   ],
+  costList: [
+    {
+      defName: 'BlocksMarble',
+      value: 4
+    }
+  ],
+  walkSpeed: 1,
+  removable: true,
+  isCarpet: false,
   defName: 'TileMarble'
 }
 

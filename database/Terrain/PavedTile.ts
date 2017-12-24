@@ -11,6 +11,25 @@ const PavedTile: DataTerrain = {
   designationHotKey: 'Misc5',
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/PavedTile',
+  color: 'rgba(255, 255, 255, 1)',
+  affordances: [
+    TerrainAffordance.Light,
+    TerrainAffordance.Heavy,
+    TerrainAffordance.SmoothHard
+  ],
+  takeFootprints: false,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: null,
+  terrainFilthDef: null,
+  acceptTerrainSourceFilth: true,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +52,15 @@ const PavedTile: DataTerrain = {
       value: 5.24
     }
   ],
+  costList: [
+    {
+      defName: 'Steel',
+      value: 2
+    }
+  ],
+  walkSpeed: 1,
+  removable: true,
+  isCarpet: false,
   defName: 'PavedTile'
 }
 

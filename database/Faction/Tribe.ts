@@ -38,12 +38,12 @@ const Tribe: DataFaction = {
   appreciative: true,
   homeIconPath: 'World/WorldObjects/TribalFactionBase',
   expandingIconTexture: 'World/WorldObjects/Expanding/Village',
+  colorSpectrum: ['rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)', 'rgba(255, 255, 0, 1)'],
   allMemberKinds: ['TribalWarrior', 'TribalArcher', 'TribalHunter', 'TribalHeavyArcher', 'TribalBerserker', 'TribalChief', 'TribalTrader'],
-  apparelStuffs: [],
+  apparelStuffs: null,
   caravanTraderKinds: ['Caravan_Neolithic_BulkGoods', 'Caravan_Neolithic_WarMerchant', 'Caravan_Neolithic_Slaver', 'Caravan_Neolithic_ShamanMerchant'],
   visitorTraderKinds: ['Visitor_Neolithic_Standard'],
   baseTraderKinds: ['Base_Neolithic_Standard'],
-  colorSpectrum: ['rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)', 'rgba(255, 255, 0, 1)'],
   defName: 'Tribe'
 }
 

@@ -13,6 +13,25 @@ const CarpetBlue: DataTerrain = {
   designationHotKey: 'Misc10',
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/Carpet',
+  color: 'rgba(0, 0, 0, 1)',
+  affordances: [
+    TerrainAffordance.Light,
+    TerrainAffordance.Heavy,
+    TerrainAffordance.SmoothHard
+  ],
+  takeFootprints: false,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: 'BurnedCarpet',
+  terrainFilthDef: null,
+  acceptTerrainSourceFilth: true,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -35,6 +54,15 @@ const CarpetBlue: DataTerrain = {
       value: 10.986
     }
   ],
+  costList: [
+    {
+      defName: 'Cloth',
+      value: 7
+    }
+  ],
+  walkSpeed: 1,
+  removable: true,
+  isCarpet: true,
   defName: 'CarpetBlue'
 }
 

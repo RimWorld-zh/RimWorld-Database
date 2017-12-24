@@ -11,6 +11,25 @@ const Concrete: DataTerrain = {
   designationHotKey: 'Misc6',
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/Concrete',
+  color: 'rgba(255, 255, 255, 1)',
+  affordances: [
+    TerrainAffordance.Light,
+    TerrainAffordance.Heavy,
+    TerrainAffordance.SmoothHard
+  ],
+  takeFootprints: false,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: null,
+  terrainFilthDef: null,
+  acceptTerrainSourceFilth: true,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +52,15 @@ const Concrete: DataTerrain = {
       value: 2.26
     }
   ],
+  costList: [
+    {
+      defName: 'Steel',
+      value: 1
+    }
+  ],
+  walkSpeed: 1,
+  removable: true,
+  isCarpet: false,
   defName: 'Concrete'
 }
 

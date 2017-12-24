@@ -38,12 +38,12 @@ const Pirate: DataFaction = {
   appreciative: false,
   homeIconPath: 'World/WorldObjects/DefaultFactionBase',
   expandingIconTexture: 'World/WorldObjects/Expanding/PirateOutpost',
+  colorSpectrum: ['rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)'],
   allMemberKinds: ['Drifter', 'GrenadierEMP', 'GrenadierDestructive', 'Thrasher', 'MercenarySlasher', 'MercenaryHeavy', 'MercenarySniper', 'Scavenger', 'Pirate', 'MercenaryGunner', 'MercenaryElite', 'PirateBoss'],
-  apparelStuffs: [],
+  apparelStuffs: null,
   caravanTraderKinds: [],
   visitorTraderKinds: [],
   baseTraderKinds: [],
-  colorSpectrum: ['rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)'],
   defName: 'Pirate'
 }
 

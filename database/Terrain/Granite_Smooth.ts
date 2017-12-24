@@ -11,6 +11,25 @@ const Granite_Smooth: DataTerrain = {
   designationHotKey: null,
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/SmoothStone',
+  color: 'rgba(0, 0, 0, 1)',
+  affordances: [
+    TerrainAffordance.Light,
+    TerrainAffordance.Heavy,
+    TerrainAffordance.SmoothHard
+  ],
+  takeFootprints: false,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: null,
+  terrainFilthDef: null,
+  acceptTerrainSourceFilth: true,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +52,10 @@ const Granite_Smooth: DataTerrain = {
       value: 0.0036
     }
   ],
+  costList: null,
+  walkSpeed: 1,
+  removable: false,
+  isCarpet: false,
   defName: 'Granite_Smooth'
 }
 

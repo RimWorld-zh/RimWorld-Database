@@ -11,6 +11,21 @@ const Marsh: DataTerrain = {
   designationHotKey: null,
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/Marsh',
+  color: 'rgba(255, 255, 255, 1)',
+  affordances: [],
+  takeFootprints: true,
+  takeSplashes: false,
+  avoidWander: true,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: 'Soil',
+  burnedDef: null,
+  terrainFilthDef: 'FilthDirt',
+  acceptTerrainSourceFilth: false,
+  acceptFilth: false,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +48,10 @@ const Marsh: DataTerrain = {
       value: 0.0036
     }
   ],
+  costList: null,
+  walkSpeed: 0.3611111,
+  removable: false,
+  isCarpet: false,
   defName: 'Marsh'
 }
 

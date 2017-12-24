@@ -17,9 +17,6 @@ declare interface DataBiome extends EData {
   readonly diseases: ReadonlyArray<FloatDefValue> | null;
 }
 
-declare interface DataBuildable extends EData {
-}
-
 declare interface DataDamage extends EData {
   readonly makesBlood: boolean;
   readonly armorCategory: string | null;
@@ -27,11 +24,11 @@ declare interface DataDamage extends EData {
   readonly isExplosive: boolean;
   readonly explosionDamage: number;
   readonly explosionBuildingDamageFactor: number;
+  readonly explosionColorCenter: string | null;
+  readonly explosionColorEdge: string | null;
   readonly hediff: string | null;
   readonly hediffSkin: string | null;
   readonly hediffSolid: string | null;
-  readonly explosionColorCenter: string | null;
-  readonly explosionColorEdge: string | null;
 }
 
 declare interface DataDamageArmorCategory extends EData {
@@ -86,12 +83,12 @@ declare interface DataFaction extends EData {
   readonly appreciative: boolean;
   readonly homeIconPath: string | null;
   readonly expandingIconTexture: string | null;
+  readonly colorSpectrum: ReadonlyArray<string | null> | null;
   readonly allMemberKinds: ReadonlyArray<string | null> | null;
   readonly apparelStuffs: ReadonlyArray<string | null> | null;
   readonly caravanTraderKinds: ReadonlyArray<string | null> | null;
   readonly visitorTraderKinds: ReadonlyArray<string | null> | null;
   readonly baseTraderKinds: ReadonlyArray<string | null> | null;
-  readonly colorSpectrum: ReadonlyArray<string | null> | null;
 }
 
 declare interface DataHair extends EData {
@@ -100,7 +97,7 @@ declare interface DataHair extends EData {
   readonly hairTags: ReadonlyArray<string | null> | null;
 }
 
-declare interface DataTerrain extends DataBuildable {
+declare interface DataTerrain extends EData {
   readonly passability: Traversability;
   readonly pathCost: number;
   readonly pathCostIgnoreRepeat: boolean;
@@ -113,7 +110,26 @@ declare interface DataTerrain extends DataBuildable {
   readonly designationHotKey: string | null;
   readonly minTechLevelToBuild: TechLevel;
   readonly maxTechLevelToBuild: TechLevel;
+  readonly texturePath: string | null;
+  readonly color: string | null;
+  readonly affordances: ReadonlyArray<TerrainAffordance> | null;
+  readonly takeFootprints: boolean;
+  readonly takeSplashes: boolean;
+  readonly avoidWander: boolean;
+  readonly holdSnow: boolean;
+  readonly extinguishesFire: boolean;
+  readonly changeable: boolean;
+  readonly smoothedTerrain: string | null;
+  readonly driesTo: string | null;
+  readonly burnedDef: string | null;
+  readonly terrainFilthDef: string | null;
+  readonly acceptTerrainSourceFilth: boolean;
+  readonly acceptFilth: boolean;
   readonly stats: ReadonlyArray<FloatDefValue> | null;
+  readonly costList: ReadonlyArray<IntDefValue> | null;
+  readonly walkSpeed: number;
+  readonly removable: boolean;
+  readonly isCarpet: boolean;
 }
 
 declare interface DatabaseBiome {

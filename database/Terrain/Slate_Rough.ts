@@ -11,6 +11,25 @@ const Slate_Rough: DataTerrain = {
   designationHotKey: null,
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/RoughStone',
+  color: 'rgba(0, 0, 0, 1)',
+  affordances: [
+    TerrainAffordance.Light,
+    TerrainAffordance.Heavy,
+    TerrainAffordance.SmoothableStone
+  ],
+  takeFootprints: false,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: 'Slate_Smooth',
+  driesTo: null,
+  burnedDef: null,
+  terrainFilthDef: null,
+  acceptTerrainSourceFilth: false,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +52,10 @@ const Slate_Rough: DataTerrain = {
       value: 0.0036
     }
   ],
+  costList: null,
+  walkSpeed: 0.9285714,
+  removable: false,
+  isCarpet: false,
   defName: 'Slate_Rough'
 }
 

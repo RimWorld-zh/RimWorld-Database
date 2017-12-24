@@ -11,6 +11,25 @@ const Ice: DataTerrain = {
   designationHotKey: null,
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/Ice',
+  color: 'rgba(255, 255, 255, 1)',
+  affordances: [
+    TerrainAffordance.Light,
+    TerrainAffordance.Heavy,
+    TerrainAffordance.Diggable
+  ],
+  takeFootprints: true,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: null,
+  terrainFilthDef: 'FilthDirt',
+  acceptTerrainSourceFilth: false,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +52,10 @@ const Ice: DataTerrain = {
       value: 0.0036
     }
   ],
+  costList: null,
+  walkSpeed: 0.52,
+  removable: false,
+  isCarpet: false,
   defName: 'Ice'
 }
 

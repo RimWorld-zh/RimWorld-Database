@@ -11,6 +11,21 @@ const Underwall: DataTerrain = {
   designationHotKey: null,
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/Underwall',
+  color: 'rgba(255, 255, 255, 1)',
+  affordances: [],
+  takeFootprints: false,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: null,
+  terrainFilthDef: null,
+  acceptTerrainSourceFilth: false,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +48,10 @@ const Underwall: DataTerrain = {
       value: 0.0036
     }
   ],
+  costList: null,
+  walkSpeed: 1,
+  removable: false,
+  isCarpet: false,
   defName: 'Underwall'
 }
 

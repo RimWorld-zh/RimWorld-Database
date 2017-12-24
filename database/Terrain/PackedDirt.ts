@@ -11,6 +11,24 @@ const PackedDirt: DataTerrain = {
   designationHotKey: null,
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/PackedDirt',
+  color: 'rgba(255, 255, 255, 1)',
+  affordances: [
+    TerrainAffordance.Light,
+    TerrainAffordance.Heavy
+  ],
+  takeFootprints: false,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: null,
+  terrainFilthDef: 'FilthDirt',
+  acceptTerrainSourceFilth: false,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +51,10 @@ const PackedDirt: DataTerrain = {
       value: 0.0036
     }
   ],
+  costList: null,
+  walkSpeed: 0.9285714,
+  removable: false,
+  isCarpet: false,
   defName: 'PackedDirt'
 }
 

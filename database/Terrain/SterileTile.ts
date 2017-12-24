@@ -11,6 +11,25 @@ const SterileTile: DataTerrain = {
   designationHotKey: 'Misc4',
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
+  texturePath: 'Terrain/Surfaces/GenericFloorTile',
+  color: 'rgba(0, 0, 0, 1)',
+  affordances: [
+    TerrainAffordance.Light,
+    TerrainAffordance.Heavy,
+    TerrainAffordance.SmoothHard
+  ],
+  takeFootprints: false,
+  takeSplashes: false,
+  avoidWander: false,
+  holdSnow: true,
+  extinguishesFire: false,
+  changeable: true,
+  smoothedTerrain: null,
+  driesTo: null,
+  burnedDef: null,
+  terrainFilthDef: null,
+  acceptTerrainSourceFilth: true,
+  acceptFilth: true,
   stats: [
     {
       defName: 'Beauty',
@@ -33,6 +52,19 @@ const SterileTile: DataTerrain = {
       value: 26.64
     }
   ],
+  costList: [
+    {
+      defName: 'Steel',
+      value: 3
+    },
+    {
+      defName: 'Silver',
+      value: 15
+    }
+  ],
+  walkSpeed: 1,
+  removable: true,
+  isCarpet: false,
   defName: 'SterileTile'
 }
 

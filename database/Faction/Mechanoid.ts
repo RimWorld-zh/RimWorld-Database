@@ -38,12 +38,12 @@ const Mechanoid: DataFaction = {
   appreciative: true,
   homeIconPath: 'World/WorldObjects/DefaultFactionBase',
   expandingIconTexture: null,
+  colorSpectrum: null,
   allMemberKinds: ['Centipede', 'Scyther'],
-  apparelStuffs: [],
+  apparelStuffs: null,
   caravanTraderKinds: [],
   visitorTraderKinds: [],
   baseTraderKinds: [],
-  colorSpectrum: [],
   defName: 'Mechanoid'
 }
 
