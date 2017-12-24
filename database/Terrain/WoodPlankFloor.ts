@@ -12,7 +12,7 @@ const WoodPlankFloor: DataTerrain = {
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
   texturePath: 'Terrain/Surfaces/WoodFloor',
-  color: 'rgba(0, 0, 0, 1)',
+  color: 'rgba(108, 78, 55, 1)',
   affordances: [
     TerrainAffordance.Light,
     TerrainAffordance.Heavy,

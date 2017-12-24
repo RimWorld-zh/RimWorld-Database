@@ -38,7 +38,7 @@ const PlayerColony: DataFaction = {
   appreciative: true,
   homeIconPath: 'World/WorldObjects/DefaultFactionBase',
   expandingIconTexture: 'World/WorldObjects/Expanding/Town',
-  colorSpectrum: ['rgba(0, 0, 0, 1)'],
+  colorSpectrum: ['rgba(0, 188, 216, 1)'],
   allMemberKinds: null,
   apparelStuffs: ['Synthread'],
   caravanTraderKinds: [],

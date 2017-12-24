@@ -12,7 +12,7 @@ const MetalTile: DataTerrain = {
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
   texturePath: 'Terrain/Surfaces/GenericFloorTile',
-  color: 'rgba(0, 0, 0, 1)',
+  color: 'rgba(94, 94, 94, 1)',
   affordances: [
     TerrainAffordance.Light,
     TerrainAffordance.Heavy,

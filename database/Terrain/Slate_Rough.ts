@@ -12,7 +12,7 @@ const Slate_Rough: DataTerrain = {
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
   texturePath: 'Terrain/Surfaces/RoughStone',
-  color: 'rgba(0, 0, 0, 1)',
+  color: 'rgba(70, 70, 70, 1)',
   affordances: [
     TerrainAffordance.Light,
     TerrainAffordance.Heavy,

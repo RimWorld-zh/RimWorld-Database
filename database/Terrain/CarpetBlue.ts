@@ -14,7 +14,7 @@ const CarpetBlue: DataTerrain = {
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
   texturePath: 'Terrain/Surfaces/Carpet',
-  color: 'rgba(0, 0, 0, 1)',
+  color: 'rgba(24, 65, 121, 1)',
   affordances: [
     TerrainAffordance.Light,
     TerrainAffordance.Heavy,

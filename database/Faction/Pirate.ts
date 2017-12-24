@@ -38,7 +38,7 @@ const Pirate: DataFaction = {
   appreciative: false,
   homeIconPath: 'World/WorldObjects/DefaultFactionBase',
   expandingIconTexture: 'World/WorldObjects/Expanding/PirateOutpost',
-  colorSpectrum: ['rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)', 'rgba(0, 0, 0, 1)'],
+  colorSpectrum: ['rgba(115, 8, 5, 1)', 'rgba(204, 20, 46, 1)', 'rgba(235, 158, 15, 1)'],
   allMemberKinds: ['Drifter', 'GrenadierEMP', 'GrenadierDestructive', 'Thrasher', 'MercenarySlasher', 'MercenaryHeavy', 'MercenarySniper', 'Scavenger', 'Pirate', 'MercenaryGunner', 'MercenaryElite', 'PirateBoss'],
   apparelStuffs: null,
   caravanTraderKinds: [],

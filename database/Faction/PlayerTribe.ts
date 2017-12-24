@@ -38,7 +38,7 @@ const PlayerTribe: DataFaction = {
   appreciative: true,
   homeIconPath: 'World/WorldObjects/TribalFactionBase',
   expandingIconTexture: 'World/WorldObjects/Expanding/Village',
-  colorSpectrum: ['rgba(0, 0, 0, 1)'],
+  colorSpectrum: ['rgba(0, 188, 216, 1)'],
   allMemberKinds: null,
   apparelStuffs: ['Cloth'],
   caravanTraderKinds: [],

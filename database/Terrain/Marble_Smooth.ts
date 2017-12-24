@@ -12,7 +12,7 @@ const Marble_Smooth: DataTerrain = {
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
   texturePath: 'Terrain/Surfaces/SmoothStone',
-  color: 'rgba(0, 0, 0, 1)',
+  color: 'rgba(132, 135, 132, 1)',
   affordances: [
     TerrainAffordance.Light,
     TerrainAffordance.Heavy,

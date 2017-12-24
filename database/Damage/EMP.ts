@@ -6,7 +6,7 @@ const EMP: DataDamage = {
   explosionDamage: 60,
   explosionBuildingDamageFactor: 1,
   explosionColorCenter: 'rgba(255, 255, 255, 1)',
-  explosionColorEdge: 'rgba(0, 0, 0, 0.8)',
+  explosionColorEdge: 'rgba(204, 204, 204, 0.8)',
   hediff: null,
   hediffSkin: null,
   hediffSolid: null,

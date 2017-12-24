@@ -12,7 +12,7 @@ const FlagstoneLimestone: DataTerrain = {
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
   texturePath: 'Terrain/Surfaces/Flagstone',
-  color: 'rgba(0, 0, 0, 1)',
+  color: 'rgba(158, 153, 135, 1)',
   affordances: [
     TerrainAffordance.Light,
     TerrainAffordance.Heavy,

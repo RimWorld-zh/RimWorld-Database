@@ -12,7 +12,7 @@ const Granite_RoughHewn: DataTerrain = {
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
   texturePath: 'Terrain/Surfaces/RoughHewnRock',
-  color: 'rgba(0, 0, 0, 1)',
+  color: 'rgba(105, 95, 97, 1)',
   affordances: [
     TerrainAffordance.Light,
     TerrainAffordance.Heavy,

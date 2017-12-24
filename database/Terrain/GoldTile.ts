@@ -12,7 +12,7 @@ const GoldTile: DataTerrain = {
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
   texturePath: 'Terrain/Surfaces/GenericFloorTile',
-  color: 'rgba(0, 0, 0, 1)',
+  color: 'rgba(166, 166, 89, 1)',
   affordances: [
     TerrainAffordance.Light,
     TerrainAffordance.Heavy,

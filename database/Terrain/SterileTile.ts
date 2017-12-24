@@ -12,7 +12,7 @@ const SterileTile: DataTerrain = {
   minTechLevelToBuild: TechLevel.Undefined,
   maxTechLevelToBuild: TechLevel.Undefined,
   texturePath: 'Terrain/Surfaces/GenericFloorTile',
-  color: 'rgba(0, 0, 0, 1)',
+  color: 'rgba(181, 181, 181, 1)',
   affordances: [
     TerrainAffordance.Light,
     TerrainAffordance.Heavy,
