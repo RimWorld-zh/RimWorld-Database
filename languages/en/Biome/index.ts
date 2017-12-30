@@ -1,33 +1,33 @@
-import AridShrubland from './AridShrubland';
 import BorealForest from './BorealForest';
+import Tundra from './Tundra';
 import ColdBog from './ColdBog';
-import Desert from './Desert';
-import ExtremeDesert from './ExtremeDesert';
 import IceSheet from './IceSheet';
-import Lake from './Lake';
-import Ocean from './Ocean';
 import SeaIce from './SeaIce';
 import TemperateForest from './TemperateForest';
 import TemperateSwamp from './TemperateSwamp';
+import Ocean from './Ocean';
+import Lake from './Lake';
 import TropicalRainforest from './TropicalRainforest';
 import TropicalSwamp from './TropicalSwamp';
-import Tundra from './Tundra';
+import AridShrubland from './AridShrubland';
+import Desert from './Desert';
+import ExtremeDesert from './ExtremeDesert';
 
 const Biome: LangbaseBiome = {
-  AridShrubland,
   BorealForest,
+  Tundra,
   ColdBog,
-  Desert,
-  ExtremeDesert,
   IceSheet,
-  Lake,
-  Ocean,
   SeaIce,
   TemperateForest,
   TemperateSwamp,
+  Ocean,
+  Lake,
   TropicalRainforest,
   TropicalSwamp,
-  Tundra,
+  AridShrubland,
+  Desert,
+  ExtremeDesert,
 };
 
 export default Biome;

@@ -1,23 +1,23 @@
-import Insect from './Insect';
+import Spacer from './Spacer';
+import SpacerHostile from './SpacerHostile';
 import Mechanoid from './Mechanoid';
+import Insect from './Insect';
 import Outlander from './Outlander';
+import Tribe from './Tribe';
 import Pirate from './Pirate';
 import PlayerColony from './PlayerColony';
 import PlayerTribe from './PlayerTribe';
-import Spacer from './Spacer';
-import SpacerHostile from './SpacerHostile';
-import Tribe from './Tribe';
 
 const Faction: DatabaseFaction = {
-  Insect,
+  Spacer,
+  SpacerHostile,
   Mechanoid,
+  Insect,
   Outlander,
+  Tribe,
   Pirate,
   PlayerColony,
   PlayerTribe,
-  Spacer,
-  SpacerHostile,
-  Tribe,
 };
 
 export default Faction;

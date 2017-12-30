@@ -1,13 +1,13 @@
 import Blunt from './Blunt';
-import Electric from './Electric';
-import Heat from './Heat';
 import Sharp from './Sharp';
+import Heat from './Heat';
+import Electric from './Electric';
 
 const DamageArmorCategory: DatabaseDamageArmorCategory = {
   Blunt,
-  Electric,
-  Heat,
   Sharp,
+  Heat,
+  Electric,
 };
 
 export default DamageArmorCategory;
