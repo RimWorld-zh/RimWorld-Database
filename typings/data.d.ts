@@ -98,6 +98,7 @@ declare interface DataHair extends EData {
 }
 
 declare interface DataStuffCategory extends EData {
+  readonly stuffs: ReadonlyArray<string | null> | null;
 }
 
 declare interface DataTerrain extends EData {

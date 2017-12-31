@@ -1,4 +1,7 @@
 const Woody: DataStuffCategory = {
+  stuffs: [
+    'WoodLog'
+  ],
   defName: 'Woody'
 }
 
