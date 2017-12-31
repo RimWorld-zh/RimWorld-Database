@@ -11,3 +11,6 @@ declare interface ELang extends EObj {
   readonly label: string | null;
   readonly description: string | null;
 }
+
+declare interface EAggr {
+}

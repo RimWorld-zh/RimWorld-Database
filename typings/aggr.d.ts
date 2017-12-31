@@ -1,0 +1,1 @@
+// Declaration for aggregation types.
