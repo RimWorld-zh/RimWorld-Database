@@ -18,6 +18,9 @@ declare interface LangFaction extends ELang {
 declare interface LangHair extends ELang {
 }
 
+declare interface LangStuffCategory extends ELang {
+}
+
 declare interface LangTerrain extends ELang {
 }
 
@@ -117,6 +120,15 @@ declare interface LangbaseHair {
   readonly GreasySwoop: LangHair;
   readonly Curly: LangHair;
   readonly Scatman: LangHair;
+}
+
+
+declare interface LangbaseStuffCategory {
+  readonly Metallic: LangStuffCategory;
+  readonly Woody: LangStuffCategory;
+  readonly Stony: LangStuffCategory;
+  readonly Fabric: LangStuffCategory;
+  readonly Leathery: LangStuffCategory;
 }
 
 

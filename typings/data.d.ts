@@ -97,6 +97,9 @@ declare interface DataHair extends EData {
   readonly hairTags: ReadonlyArray<string | null> | null;
 }
 
+declare interface DataStuffCategory extends EData {
+}
+
 declare interface DataTerrain extends EData {
   readonly passability: Traversability;
   readonly pathCost: number;
@@ -236,6 +239,15 @@ declare interface DatabaseHair {
   readonly GreasySwoop: DataHair;
   readonly Curly: DataHair;
   readonly Scatman: DataHair;
+}
+
+
+declare interface DatabaseStuffCategory {
+  readonly Metallic: DataStuffCategory;
+  readonly Woody: DataStuffCategory;
+  readonly Stony: DataStuffCategory;
+  readonly Fabric: DataStuffCategory;
+  readonly Leathery: DataStuffCategory;
 }
 
 
