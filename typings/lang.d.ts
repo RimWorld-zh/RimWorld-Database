@@ -28,6 +28,11 @@ declare interface LangStuffCategory extends ELang {
 declare interface LangTerrain extends ELang {
 }
 
+declare interface LangWorkType extends ELang {
+  readonly labelShort: string | null;
+  readonly pawnLabel: string | null;
+}
+
 declare interface LangbaseBiome {
   readonly BorealForest: LangBiome;
   readonly Tundra: LangBiome;
@@ -210,5 +215,29 @@ declare interface LangbaseTerrain {
   readonly Marble_Rough: LangTerrain;
   readonly Marble_RoughHewn: LangTerrain;
   readonly Marble_Smooth: LangTerrain;
+}
+
+
+declare interface LangbaseWorkType {
+  readonly Firefighter: LangWorkType;
+  readonly Patient: LangWorkType;
+  readonly Doctor: LangWorkType;
+  readonly PatientBedRest: LangWorkType;
+  readonly Flicker: LangWorkType;
+  readonly Warden: LangWorkType;
+  readonly Handling: LangWorkType;
+  readonly Cooking: LangWorkType;
+  readonly Hunting: LangWorkType;
+  readonly Construction: LangWorkType;
+  readonly Growing: LangWorkType;
+  readonly Mining: LangWorkType;
+  readonly PlantCutting: LangWorkType;
+  readonly Smithing: LangWorkType;
+  readonly Tailoring: LangWorkType;
+  readonly Art: LangWorkType;
+  readonly Crafting: LangWorkType;
+  readonly Hauling: LangWorkType;
+  readonly Cleaning: LangWorkType;
+  readonly Research: LangWorkType;
 }
 

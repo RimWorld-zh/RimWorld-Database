@@ -140,6 +140,13 @@ declare interface DataTerrain extends EData {
   readonly isCarpet: boolean;
 }
 
+declare interface DataWorkType extends EData {
+  readonly naturalPriority: number;
+  readonly relevantSkills: ReadonlyArray<string | null> | null;
+  readonly workGiversByPriority: ReadonlyArray<string | null> | null;
+  readonly workTags: ReadonlyArray<WorkTags> | null;
+}
+
 declare interface DatabaseBiome {
   readonly BorealForest: DataBiome;
   readonly Tundra: DataBiome;
@@ -330,5 +337,29 @@ declare interface DatabaseTerrain {
   readonly Marble_Rough: DataTerrain;
   readonly Marble_RoughHewn: DataTerrain;
   readonly Marble_Smooth: DataTerrain;
+}
+
+
+declare interface DatabaseWorkType {
+  readonly Firefighter: DataWorkType;
+  readonly Patient: DataWorkType;
+  readonly Doctor: DataWorkType;
+  readonly PatientBedRest: DataWorkType;
+  readonly Flicker: DataWorkType;
+  readonly Warden: DataWorkType;
+  readonly Handling: DataWorkType;
+  readonly Cooking: DataWorkType;
+  readonly Hunting: DataWorkType;
+  readonly Construction: DataWorkType;
+  readonly Growing: DataWorkType;
+  readonly Mining: DataWorkType;
+  readonly PlantCutting: DataWorkType;
+  readonly Smithing: DataWorkType;
+  readonly Tailoring: DataWorkType;
+  readonly Art: DataWorkType;
+  readonly Crafting: DataWorkType;
+  readonly Hauling: DataWorkType;
+  readonly Cleaning: DataWorkType;
+  readonly Research: DataWorkType;
 }
 
