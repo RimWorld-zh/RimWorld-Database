@@ -1,5 +1,7 @@
 const Shooting: DataSkill = {
-  workTags: [],
+  workTags: [
+    WorkTags.None
+  ],
   defName: 'Shooting'
 }
 

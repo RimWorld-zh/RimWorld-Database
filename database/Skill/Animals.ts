@@ -1,5 +1,7 @@
 const Animals: DataSkill = {
-  workTags: [],
+  workTags: [
+    WorkTags.None
+  ],
   defName: 'Animals'
 }
 

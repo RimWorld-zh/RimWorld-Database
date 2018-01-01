@@ -1,5 +1,7 @@
 const Construction: DataSkill = {
-  workTags: [],
+  workTags: [
+    WorkTags.None
+  ],
   defName: 'Construction'
 }
 

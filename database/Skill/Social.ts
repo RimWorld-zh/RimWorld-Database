@@ -1,5 +1,7 @@
 const Social: DataSkill = {
-  workTags: [],
+  workTags: [
+    WorkTags.None
+  ],
   defName: 'Social'
 }
 

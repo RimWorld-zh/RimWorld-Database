@@ -1,5 +1,7 @@
 const Growing: DataSkill = {
-  workTags: [],
+  workTags: [
+    WorkTags.None
+  ],
   defName: 'Growing'
 }
 

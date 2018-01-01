@@ -1,5 +1,7 @@
 const Artistic: DataSkill = {
-  workTags: [],
+  workTags: [
+    WorkTags.None
+  ],
   defName: 'Artistic'
 }
 

@@ -1,5 +1,7 @@
 const Intellectual: DataSkill = {
-  workTags: [],
+  workTags: [
+    WorkTags.None
+  ],
   defName: 'Intellectual'
 }
 

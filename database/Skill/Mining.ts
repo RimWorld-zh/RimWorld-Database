@@ -1,5 +1,7 @@
 const Mining: DataSkill = {
-  workTags: [],
+  workTags: [
+    WorkTags.None
+  ],
   defName: 'Mining'
 }
 

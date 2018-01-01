@@ -1,5 +1,7 @@
 const Medicine: DataSkill = {
-  workTags: [],
+  workTags: [
+    WorkTags.None
+  ],
   defName: 'Medicine'
 }
 
