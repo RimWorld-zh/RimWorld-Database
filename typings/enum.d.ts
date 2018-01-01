@@ -34,3 +34,22 @@ declare enum Traversability {
   PassThroughOnly,
   Impassable,
 }
+
+declare enum WorkTags {
+  None,
+  ManualDumb,
+  ManualSkilled,
+  Violent,
+  Caring,
+  Social,
+  Intellectual,
+  Animals,
+  Artistic,
+  Crafting,
+  Cooking,
+  Firefighting,
+  Cleaning,
+  Hauling,
+  PlantWork,
+  Mining,
+}

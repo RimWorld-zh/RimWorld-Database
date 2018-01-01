@@ -18,6 +18,10 @@ declare interface LangFaction extends ELang {
 declare interface LangHair extends ELang {
 }
 
+declare interface LangSkill extends ELang {
+  readonly skillLabel: string | null;
+}
+
 declare interface LangStuffCategory extends ELang {
 }
 
@@ -120,6 +124,22 @@ declare interface LangbaseHair {
   readonly GreasySwoop: LangHair;
   readonly Curly: LangHair;
   readonly Scatman: LangHair;
+}
+
+
+declare interface LangbaseSkill {
+  readonly Shooting: LangSkill;
+  readonly Melee: LangSkill;
+  readonly Social: LangSkill;
+  readonly Animals: LangSkill;
+  readonly Medicine: LangSkill;
+  readonly Cooking: LangSkill;
+  readonly Construction: LangSkill;
+  readonly Growing: LangSkill;
+  readonly Mining: LangSkill;
+  readonly Artistic: LangSkill;
+  readonly Crafting: LangSkill;
+  readonly Intellectual: LangSkill;
 }
 
 
