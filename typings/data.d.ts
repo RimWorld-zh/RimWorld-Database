@@ -140,6 +140,15 @@ declare interface DataTerrain extends EData {
   readonly isCarpet: boolean;
 }
 
+declare interface DataWorkGiver extends EData {
+  readonly workType: string | null;
+  readonly workTags: ReadonlyArray<WorkTags> | null;
+  readonly priorityInType: number;
+  readonly requiredCapacities: ReadonlyArray<string | null> | null;
+  readonly tagToGive: JobTag;
+  readonly fixedBillGiverDefs: ReadonlyArray<string | null> | null;
+}
+
 declare interface DataWorkType extends EData {
   readonly naturalPriority: number;
   readonly relevantSkills: ReadonlyArray<string | null> | null;
@@ -337,6 +346,87 @@ declare interface DatabaseTerrain {
   readonly Marble_Rough: DataTerrain;
   readonly Marble_RoughHewn: DataTerrain;
   readonly Marble_Smooth: DataTerrain;
+}
+
+
+declare interface DatabaseWorkGiver {
+  readonly FightFires: DataWorkGiver;
+  readonly PatientGoToBedEmergencyTreatment: DataWorkGiver;
+  readonly PatientGoToBedTreatment: DataWorkGiver;
+  readonly DoctorTendEmergency: DataWorkGiver;
+  readonly DoctorRescue: DataWorkGiver;
+  readonly DoBillsMedicalHumanOperation: DataWorkGiver;
+  readonly DoctorTendToHumanlikes: DataWorkGiver;
+  readonly DoctorTendToSelf: DataWorkGiver;
+  readonly DoctorFeedHumanlikes: DataWorkGiver;
+  readonly DoBillsMedicalAnimalOperation: DataWorkGiver;
+  readonly DoctorTendToAnimals: DataWorkGiver;
+  readonly DoctorFeedAnimals: DataWorkGiver;
+  readonly TakeToBedToOperate: DataWorkGiver;
+  readonly VisitSickPawn: DataWorkGiver;
+  readonly PatientGoToBedRecuperate: DataWorkGiver;
+  readonly Flick: DataWorkGiver;
+  readonly DoExecution: DataWorkGiver;
+  readonly ReleasePrisoner: DataWorkGiver;
+  readonly TakePrisonerToBed: DataWorkGiver;
+  readonly FeedPrisoner: DataWorkGiver;
+  readonly DeliverFoodToPrisoner: DataWorkGiver;
+  readonly ChatWithPrisoner: DataWorkGiver;
+  readonly Slaughter: DataWorkGiver;
+  readonly Milk: DataWorkGiver;
+  readonly Shear: DataWorkGiver;
+  readonly Tame: DataWorkGiver;
+  readonly Train: DataWorkGiver;
+  readonly DoBillsCook: DataWorkGiver;
+  readonly DoBillsCookCampfire: DataWorkGiver;
+  readonly DoBillsButcherFlesh: DataWorkGiver;
+  readonly CookFillHopper: DataWorkGiver;
+  readonly DoBillsBrew: DataWorkGiver;
+  readonly HunterHunt: DataWorkGiver;
+  readonly FixBrokenDownBuilding: DataWorkGiver;
+  readonly Repair: DataWorkGiver;
+  readonly BuildRoofs: DataWorkGiver;
+  readonly RemoveRoofs: DataWorkGiver;
+  readonly ConstructFinishFrames: DataWorkGiver;
+  readonly ConstructDeliverResourcesToFrames: DataWorkGiver;
+  readonly ConstructDeliverResourcesToBlueprints: DataWorkGiver;
+  readonly Deconstruct: DataWorkGiver;
+  readonly Uninstall: DataWorkGiver;
+  readonly ConstructRemoveFloors: DataWorkGiver;
+  readonly ConstructSmoothFloors: DataWorkGiver;
+  readonly GrowerHarvest: DataWorkGiver;
+  readonly GrowerSow: DataWorkGiver;
+  readonly Mine: DataWorkGiver;
+  readonly Drill: DataWorkGiver;
+  readonly PlantsCut: DataWorkGiver;
+  readonly DoBillsMakeWeapons: DataWorkGiver;
+  readonly DoBillsMachiningTable: DataWorkGiver;
+  readonly DoBillsComponentAssemblyBench: DataWorkGiver;
+  readonly DoBillsMakeApparel: DataWorkGiver;
+  readonly DoBillsSculpt: DataWorkGiver;
+  readonly DoBillsMedicalMechanoidOperation: DataWorkGiver;
+  readonly DoBillsUseCraftingSpot: DataWorkGiver;
+  readonly DoBillsRefinery: DataWorkGiver;
+  readonly DoBillsProduceDrugs: DataWorkGiver;
+  readonly DoBillsStonecut: DataWorkGiver;
+  readonly DoBillsSmelter: DataWorkGiver;
+  readonly UnloadCarriers: DataWorkGiver;
+  readonly LoadTransporters: DataWorkGiver;
+  readonly HelpGatheringItemsForCaravan: DataWorkGiver;
+  readonly Strip: DataWorkGiver;
+  readonly BuryCorpses: DataWorkGiver;
+  readonly HaulCorpses: DataWorkGiver;
+  readonly Open: DataWorkGiver;
+  readonly Refuel: DataWorkGiver;
+  readonly RearmTraps: DataWorkGiver;
+  readonly DoBillsCremate: DataWorkGiver;
+  readonly DoBillsHaulCampfire: DataWorkGiver;
+  readonly TakeBeerOutOfFermentingBarrel: DataWorkGiver;
+  readonly FillFermentingBarrel: DataWorkGiver;
+  readonly HaulGeneral: DataWorkGiver;
+  readonly CleanClearSnow: DataWorkGiver;
+  readonly CleanFilth: DataWorkGiver;
+  readonly Research: DataWorkGiver;
 }
 
 

@@ -8,6 +8,25 @@ declare enum HairGender {
   Female,
 }
 
+declare enum JobTag {
+  Misc,
+  MiscWork,
+  Fieldwork,
+  Idle,
+  InMentalState,
+  SatisfyingNeeds,
+  DraftedOrder,
+  UnspecifiedLordDuty,
+  WaitingForOthersToFinishGatheringItems,
+  TuckedIntoBed,
+  RestingForMedicalReasons,
+  ChangingApparel,
+  Escaping,
+  JoiningCaravan,
+  TrainedAnimalBehavior,
+  UnloadingOwnInventory,
+}
+
 declare enum TechLevel {
   Undefined,
   Animal,

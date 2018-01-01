@@ -28,6 +28,9 @@ declare interface LangStuffCategory extends ELang {
 declare interface LangTerrain extends ELang {
 }
 
+declare interface LangWorkGiver extends ELang {
+}
+
 declare interface LangWorkType extends ELang {
   readonly labelShort: string | null;
   readonly pawnLabel: string | null;
@@ -215,6 +218,10 @@ declare interface LangbaseTerrain {
   readonly Marble_Rough: LangTerrain;
   readonly Marble_RoughHewn: LangTerrain;
   readonly Marble_Smooth: LangTerrain;
+}
+
+
+declare interface LangbaseWorkGiver {
 }
 
 
