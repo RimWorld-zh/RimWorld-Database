@@ -1,8 +1,8 @@
 const Smithing: LangWorkType = {
-  labelShort: 'Smith',
-  pawnLabel: 'Smith',
-  label: null,
-  description: 'Create weapons and tools from raw materials, either as a blacksmith or by machining.',
+  labelShort: '鍛造師',
+  pawnLabel: '鍛造師',
+  label: '鍛造',
+  description: '鍛造師會將原料打造成武器或工具。',
   defName: 'Smithing'
 }
 

@@ -1,5 +1,5 @@
 const Pigtails: LangHair = {
-  label: 'pigtails',
+  label: '双马尾',
   description: null,
   defName: 'Pigtails'
 }

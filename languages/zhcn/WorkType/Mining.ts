@@ -1,8 +1,8 @@
 const Mining: LangWorkType = {
-  labelShort: 'Mine',
-  pawnLabel: 'Miner',
-  label: null,
-  description: 'Digging and drilling.',
+  labelShort: '采矿',
+  pawnLabel: '矿工',
+  label: '采矿',
+  description: '挖掘与钻取。',
   defName: 'Mining'
 }
 

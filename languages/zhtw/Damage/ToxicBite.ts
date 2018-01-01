@@ -1,5 +1,5 @@
 const ToxicBite: LangDamage = {
-  label: 'toxic bite',
+  label: '毒咬',
   description: null,
   defName: 'ToxicBite'
 }

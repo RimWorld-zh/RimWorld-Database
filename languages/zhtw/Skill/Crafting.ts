@@ -1,7 +1,7 @@
 const Crafting: LangSkill = {
-  skillLabel: 'crafting',
-  label: 'crafting',
-  description: 'Crafting general items including weapons and tools.',
+  skillLabel: '手工',
+  label: '手工',
+  description: '打造武器、裁縫衣物、加工石材。',
   defName: 'Crafting'
 }
 

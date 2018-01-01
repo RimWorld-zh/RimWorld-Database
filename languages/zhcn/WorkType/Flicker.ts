@@ -1,8 +1,8 @@
 const Flicker: LangWorkType = {
-  labelShort: 'Flick',
-  pawnLabel: 'Flicker',
-  label: null,
-  description: 'Flick switches. For example, when you designate toggling power on a turret, a flicker must manually flick it to toggle the power.',
+  labelShort: '开关',
+  pawnLabel: '电工',
+  label: '开关',
+  description: '电工负责开关电源。当切换用电设备或电路开关的供电状态时，电工将会前往拨动开关。',
   defName: 'Flicker'
 }
 

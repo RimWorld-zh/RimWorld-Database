@@ -1,6 +1,6 @@
 const MetalTile: LangTerrain = {
-  label: 'metal tile',
-  description: 'Metal tiles, for that spaceship look. Pretty, but labor and material-intensive.',
+  label: '金属地砖',
+  description: '金属的地砖，拥有宇宙飞船般的外表。看起来很好看，就是铺设时的工作量和所用材料有点多。',
   defName: 'MetalTile'
 }
 

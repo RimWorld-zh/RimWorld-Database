@@ -1,6 +1,6 @@
 const Sandstone_Rough: LangTerrain = {
-  label: 'rough sandstone',
-  description: 'Rough, natural sandstone ground.',
+  label: '粗糙的砂岩地面',
+  description: '粗糙的天然砂岩地面。',
   defName: 'Sandstone_Rough'
 }
 

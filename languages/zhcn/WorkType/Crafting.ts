@@ -1,8 +1,8 @@
 const Crafting: LangWorkType = {
-  labelShort: 'Craft',
-  pawnLabel: 'Crafter',
-  label: null,
-  description: 'Do general low-skilled labor at work stations. This includes stonecutting, smelting, and more.',
+  labelShort: '制作',
+  pawnLabel: '工匠',
+  label: '制作',
+  description: '工匠负责把原材料制成成品。',
   defName: 'Crafting'
 }
 

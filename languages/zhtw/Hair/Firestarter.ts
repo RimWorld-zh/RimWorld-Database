@@ -1,5 +1,5 @@
 const Firestarter: LangHair = {
-  label: 'firestarter',
+  label: '火焰',
   description: null,
   defName: 'Firestarter'
 }

@@ -1,6 +1,6 @@
 const TemperateSwamp: LangBiome = {
-  label: 'temperate swamp',
-  description: 'Extremely dense vegetation and marshy terrain make it very difficult to move around here and build big structures. Many species of animals live in this area.',
+  label: '温带沼泽',
+  description: '极其稠密的植被和沼泽地形使得这里行动和建造大型建筑变得非常困难。这里生活着许多独特的生物。',
   defName: 'TemperateSwamp'
 }
 

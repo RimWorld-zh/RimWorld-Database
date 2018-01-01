@@ -1,6 +1,6 @@
 const BurnedCarpet: LangTerrain = {
-  label: 'burned carpet',
-  description: 'Burned-out carpet.',
+  label: '被烧毁的地毯',
+  description: '被烧毁的地毯。',
   defName: 'BurnedCarpet'
 }
 

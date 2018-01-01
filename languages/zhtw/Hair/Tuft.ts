@@ -1,5 +1,5 @@
 const Tuft: LangHair = {
-  label: 'tuft',
+  label: '雞窩頭',
   description: null,
   defName: 'Tuft'
 }

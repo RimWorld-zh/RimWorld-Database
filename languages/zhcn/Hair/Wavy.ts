@@ -1,5 +1,5 @@
 const Wavy: LangHair = {
-  label: 'wavy',
+  label: '波浪卷',
   description: null,
   defName: 'Wavy'
 }

@@ -1,6 +1,6 @@
 const Concrete: LangTerrain = {
-  label: 'concrete',
-  description: 'Quick-poured concrete. Fast to walk on, cheap, and very quick to pour, but quite ugly.',
+  label: '水泥地',
+  description: '迅速澆灌的水泥。在上面行走很迅速，但外觀欠佳。',
   defName: 'Concrete'
 }
 

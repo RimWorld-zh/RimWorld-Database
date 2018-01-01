@@ -1,5 +1,5 @@
 const Senorita: LangHair = {
-  label: 'senorita',
+  label: '仕女',
   description: null,
   defName: 'Senorita'
 }

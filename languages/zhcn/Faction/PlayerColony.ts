@@ -1,9 +1,9 @@
 const PlayerColony: LangFaction = {
   fixedName: null,
-  pawnsPlural: 'colonists',
+  pawnsPlural: '殖民者',
   leaderTitle: 'leader',
-  label: 'New Arrivals',
-  description: 'Your own community.',
+  label: '新移民',
+  description: '这是你自己的社区团体。',
   defName: 'PlayerColony'
 }
 

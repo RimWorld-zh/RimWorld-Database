@@ -1,5 +1,5 @@
 const Arrow: LangDamage = {
-  label: 'arrow',
+  label: '箭傷',
   description: null,
   defName: 'Arrow'
 }

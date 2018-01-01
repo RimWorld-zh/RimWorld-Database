@@ -1,6 +1,6 @@
 const TemperateForest: LangBiome = {
-  label: 'temperate forest',
-  description: 'Forests of deciduous trees interspersed with fertile clearings. Many species of animals move around in the trees and on the plains. Because of snow, it is slow to travel in winter.',
+  label: '温带森林',
+  description: '散布着肥沃的土壤落叶乔木林。丛林里和平原上游荡着多种多样的动物群落。冬季的积雪会导致出行变得缓慢。',
   defName: 'TemperateForest'
 }
 

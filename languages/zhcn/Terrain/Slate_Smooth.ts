@@ -1,6 +1,6 @@
 const Slate_Smooth: LangTerrain = {
-  label: 'smooth slate',
-  description: 'Smoothed natural slate floor.',
+  label: '光滑的板岩地面',
+  description: '打磨光滑的天然板岩地面。',
   defName: 'Slate_Smooth'
 }
 

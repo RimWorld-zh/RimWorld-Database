@@ -1,5 +1,5 @@
 const Poke: LangDamage = {
-  label: 'blunt',
+  label: '鈍傷',
   description: null,
   defName: 'Poke'
 }

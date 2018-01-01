@@ -1,8 +1,8 @@
 const Patient: LangWorkType = {
-  labelShort: 'Patient',
-  pawnLabel: 'Patient',
-  label: null,
-  description: 'Go to a medical bed for treatment if you have an immediately life-threatening health condition.',
+  labelShort: '病人',
+  pawnLabel: '病人',
+  label: '療傷',
+  description: '需要立即醫療照護的居民將會移動到病床或醫療床上接受治療。',
   defName: 'Patient'
 }
 

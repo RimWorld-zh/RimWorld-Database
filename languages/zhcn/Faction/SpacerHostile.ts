@@ -1,9 +1,9 @@
 const SpacerHostile: LangFaction = {
-  fixedName: 'Spacer',
-  pawnsPlural: 'spacers',
+  fixedName: '太空人',
+  pawnsPlural: '太空人',
   leaderTitle: 'leader',
-  label: 'spacer',
-  description: 'People from the distant reaches of space.',
+  label: '太空人',
+  description: '来自遥远太空的人类。',
   defName: 'SpacerHostile'
 }
 

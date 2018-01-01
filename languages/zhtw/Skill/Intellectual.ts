@@ -1,7 +1,7 @@
 const Intellectual: LangSkill = {
-  skillLabel: 'intellectual',
-  label: 'intellectual',
-  description: 'Investigating evidence, making connections, calculating and using logic.',
+  skillLabel: '知識',
+  label: '知識',
+  description: '發掘證據、建立關聯、計算並運用邏輯。',
   defName: 'Intellectual'
 }
 

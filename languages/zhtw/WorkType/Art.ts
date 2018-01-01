@@ -1,8 +1,8 @@
 const Art: LangWorkType = {
-  labelShort: 'Art',
-  pawnLabel: 'Artist',
-  label: null,
-  description: 'Create beautiful works of art from raw materials.',
+  labelShort: '藝術家',
+  pawnLabel: '藝術家',
+  label: '藝術',
+  description: '藝術家會創作優秀的藝術作品。',
   defName: 'Art'
 }
 

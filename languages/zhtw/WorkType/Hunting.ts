@@ -1,8 +1,8 @@
 const Hunting: LangWorkType = {
-  labelShort: 'Hunt',
-  pawnLabel: 'Hunter',
-  label: null,
-  description: 'Kill animals which are designated to be hunted.',
+  labelShort: '獵人',
+  pawnLabel: '獵人',
+  label: '狩獵',
+  description: '獵人會狩獵你指定的動物。',
   defName: 'Hunting'
 }
 

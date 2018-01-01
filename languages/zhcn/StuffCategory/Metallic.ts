@@ -1,5 +1,5 @@
 const Metallic: LangStuffCategory = {
-  label: 'metallic',
+  label: '金属类',
   description: null,
   defName: 'Metallic'
 }

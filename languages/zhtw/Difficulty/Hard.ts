@@ -1,6 +1,6 @@
 const Hard: LangDifficulty = {
-  label: 'Intense',
-  description: 'A significant challenge.<br/><br/>Succeeding at this level requires a solid and well-rounded understanding of survival strategies, and some luck.',
+  label: '困難',
+  description: '相當有挑戰性的難度，你需要全面的戰術、策略以及運氣才有辦法生存下來。',
   defName: 'Hard'
 }
 

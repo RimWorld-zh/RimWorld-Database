@@ -1,5 +1,5 @@
 const SoilRich: LangTerrain = {
-  label: 'rich soil',
+  label: '肥沃的土地',
   description: null,
   defName: 'SoilRich'
 }

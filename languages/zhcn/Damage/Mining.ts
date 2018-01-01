@@ -1,5 +1,5 @@
 const Mining: LangDamage = {
-  label: 'mining',
+  label: '开采',
   description: null,
   defName: 'Mining'
 }

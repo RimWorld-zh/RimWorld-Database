@@ -1,5 +1,5 @@
 const WaterOceanDeep: LangTerrain = {
-  label: 'deep ocean water',
+  label: '海水（深）',
   description: null,
   defName: 'WaterOceanDeep'
 }

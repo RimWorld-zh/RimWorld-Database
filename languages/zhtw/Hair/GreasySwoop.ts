@@ -1,5 +1,5 @@
 const GreasySwoop: LangHair = {
-  label: 'greasy swoop',
+  label: '龐巴杜',
   description: null,
   defName: 'GreasySwoop'
 }

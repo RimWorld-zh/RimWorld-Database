@@ -1,5 +1,5 @@
 const BriefPonytail: LangHair = {
-  label: 'brief ponytail',
+  label: '短馬尾',
   description: null,
   defName: 'BriefPonytail'
 }

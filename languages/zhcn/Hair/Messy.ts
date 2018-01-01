@@ -1,5 +1,5 @@
 const Messy: LangHair = {
-  label: 'messy',
+  label: '凌乱',
   description: null,
   defName: 'Messy'
 }

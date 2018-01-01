@@ -1,5 +1,5 @@
 const Bullet: LangDamage = {
-  label: 'bullet',
+  label: '槍傷',
   description: null,
   defName: 'Bullet'
 }

@@ -1,5 +1,5 @@
 const Extinguish: LangDamage = {
-  label: 'extinguish',
+  label: '熄灭',
   description: null,
   defName: 'Extinguish'
 }

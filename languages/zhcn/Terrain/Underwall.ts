@@ -1,5 +1,5 @@
 const Underwall: LangTerrain = {
-  label: 'underwall',
+  label: '墙下',
   description: null,
   defName: 'Underwall'
 }

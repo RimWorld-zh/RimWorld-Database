@@ -1,5 +1,5 @@
 const Fabric: LangStuffCategory = {
-  label: 'fabric',
+  label: '織物',
   description: null,
   defName: 'Fabric'
 }

@@ -1,7 +1,7 @@
 const Construction: LangSkill = {
-  skillLabel: 'construction',
-  label: 'construction',
-  description: 'Better constructors build structures and furniture faster and of higher quality.',
+  skillLabel: '建造',
+  label: '建造',
+  description: '更好更快的建造结构和家具。',
   defName: 'Construction'
 }
 

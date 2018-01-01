@@ -1,5 +1,5 @@
 const Scratch: LangDamage = {
-  label: 'scratch',
+  label: '抓傷',
   description: null,
   defName: 'Scratch'
 }

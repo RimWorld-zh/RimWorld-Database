@@ -1,5 +1,5 @@
 const Scatman: LangHair = {
-  label: 'scatman',
+  label: '小丑头',
   description: null,
   defName: 'Scatman'
 }

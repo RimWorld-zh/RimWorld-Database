@@ -1,5 +1,5 @@
 const Sand: LangTerrain = {
-  label: 'sand',
+  label: '沙地',
   description: null,
   defName: 'Sand'
 }

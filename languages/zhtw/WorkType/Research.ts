@@ -1,8 +1,8 @@
 const Research: LangWorkType = {
-  labelShort: 'Research',
-  pawnLabel: 'Researcher',
-  label: null,
-  description: 'Perform research work.',
+  labelShort: '研究員',
+  pawnLabel: '研究員',
+  label: '研究',
+  description: '研究員從事研究工作。',
   defName: 'Research'
 }
 

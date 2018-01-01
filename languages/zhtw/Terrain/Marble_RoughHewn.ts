@@ -1,6 +1,6 @@
 const Marble_RoughHewn: LangTerrain = {
-  label: 'rough-hewn marble',
-  description: 'Roughly cut natural marble floor.',
+  label: '開鑿大理石地',
+  description: '開鑿出的崎嶇大理石地面。',
   defName: 'Marble_RoughHewn'
 }
 

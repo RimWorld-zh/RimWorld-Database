@@ -1,5 +1,5 @@
 const TornadoScratch: LangDamage = {
-  label: 'scratch',
+  label: '割傷',
   description: null,
   defName: 'TornadoScratch'
 }

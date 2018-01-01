@@ -1,6 +1,6 @@
 const Limestone_Smooth: LangTerrain = {
-  label: 'smooth limestone',
-  description: 'Smoothed natural limestone floor.',
+  label: '光滑的石灰岩地面',
+  description: '打磨光滑的天然石灰岩地面。',
   defName: 'Limestone_Smooth'
 }
 

@@ -1,6 +1,6 @@
 const AridShrubland: LangBiome = {
-  label: 'arid shrubland',
-  description: 'A dry region, but not dry enough to become a true desert. Open plains with grasses and bushes give way to scattered groves of trees. Plants are hardy and there is a moderate density of animals.',
+  label: '干旱灌木原',
+  description: '干旱的地区，但还未干旱成沙漠的地步。开阔的平原，以草地和灌木为主，树木稀少。植物的适应能力很强，动物数量中等。',
   defName: 'AridShrubland'
 }
 

@@ -1,6 +1,6 @@
 const ColdBog: LangBiome = {
-  label: 'cold bog',
-  description: 'A wetland with few animals but lush vegetation. There\'s much more undergrowth and less trees than in typical swamps. Most of the land here can\'t support heavy structures which makes it difficult to survive.',
+  label: '寒带沼泽',
+  description: '动物稀少但植被茂盛的湿地。相比典型的沼泽，拥有更多的灌木丛和树木。大部分土地无法支撑重的建筑，这使得这里难以生存。',
   defName: 'ColdBog'
 }
 

@@ -1,6 +1,6 @@
 const Lake: LangBiome = {
-  label: 'lake',
-  description: 'A large lake. Beautiful to live next to. Not so beautiful to live in.',
+  label: '湖泊',
+  description: '一个巨大的湖泊。临泽而居，不亦美乎——但住到水里去就不合适了。',
   defName: 'Lake'
 }
 

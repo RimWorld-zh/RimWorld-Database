@@ -1,5 +1,5 @@
 const Rotting: LangDamage = {
-  label: 'rotting',
+  label: '腐烂',
   description: null,
   defName: 'Rotting'
 }

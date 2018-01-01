@@ -1,6 +1,6 @@
 const Medium: LangDifficulty = {
-  label: 'Rough',
-  description: 'It\'s a rough planet.<br/><br/>Threats can be quite dangerous. Not recommended until you\'ve got some experience with the game.',
+  label: '困难模式',
+  description: '这是一个狂暴的星球。<br/><br/>威胁事件会非常危险，并且殖民者心情和作物产量没有额外的加成。',
   defName: 'Medium'
 }
 

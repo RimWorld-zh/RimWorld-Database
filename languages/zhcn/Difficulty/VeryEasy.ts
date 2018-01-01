@@ -1,6 +1,6 @@
 const VeryEasy: LangDifficulty = {
-  label: 'Base builder',
-  description: 'For those who want to build a colony with a taste of danger.<br/><br/>Major threats appear, but they\'re weakened. Some of the extremely dangerous events are disabled.',
+  label: '基地建造者',
+  description: '类似沙盒模式环境下专注于殖民地建设的休闲难度。<br/><br/>会触发大威胁事件，但被削弱。一些危险的随机事件已经被禁用。',
   defName: 'VeryEasy'
 }
 

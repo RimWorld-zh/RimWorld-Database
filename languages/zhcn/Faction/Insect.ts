@@ -1,9 +1,9 @@
 const Insect: LangFaction = {
-  fixedName: 'insects',
-  pawnsPlural: 'insects',
+  fixedName: '虫巢',
+  pawnsPlural: '昆虫',
   leaderTitle: 'leader',
-  label: 'insects',
-  description: 'Usually aggressive and intrusive insects.',
+  label: '虫巢',
+  description: '通常具有攻击性与侵略性的昆虫。',
   defName: 'Insect'
 }
 

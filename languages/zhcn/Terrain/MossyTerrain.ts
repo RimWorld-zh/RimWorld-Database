@@ -1,5 +1,5 @@
 const MossyTerrain: LangTerrain = {
-  label: 'lichen-covered dirt',
+  label: '苔藓地面',
   description: null,
   defName: 'MossyTerrain'
 }

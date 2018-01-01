@@ -1,5 +1,5 @@
 const Stun: LangDamage = {
-  label: 'stun',
+  label: '击晕',
   description: null,
   defName: 'Stun'
 }

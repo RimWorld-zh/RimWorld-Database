@@ -1,6 +1,6 @@
 const TileGranite: LangTerrain = {
-  label: 'granite tile',
-  description: 'Refined, carefully-cut stone tiles for a castle feeling. Pretty to look at, but they take a long time to lay.',
+  label: '花崗岩地磚',
+  description: '擁有城堡感覺的石質地磚，外觀看起來還不錯，但鋪設相當耗時。',
   defName: 'TileGranite'
 }
 

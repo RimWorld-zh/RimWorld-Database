@@ -1,6 +1,6 @@
 const TropicalSwamp: LangBiome = {
-  label: 'tropical swamp',
-  description: 'A thick jungle with lots of marsh and mud. Difficult movement, little space to build heavy structures, aggresive animals, and constant diseases make living here a nightmare.',
+  label: '熱帶沼澤',
+  description: '充滿沼澤與泥巴的熱帶密林。行動非常不便、可供建造重型建築的土地稀少而破碎、充滿敵意的野生動物和不斷侵襲的疫病使得在這裡的生存猶如惡夢。',
   defName: 'TropicalSwamp'
 }
 

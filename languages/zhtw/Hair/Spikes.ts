@@ -1,5 +1,5 @@
 const Spikes: LangHair = {
-  label: 'spikes',
+  label: '刺蝟頭',
   description: null,
   defName: 'Spikes'
 }

@@ -1,5 +1,5 @@
 const PackedDirt: LangTerrain = {
-  label: 'packed dirt',
+  label: '泥塊',
   description: null,
   defName: 'PackedDirt'
 }

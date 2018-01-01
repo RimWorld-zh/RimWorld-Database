@@ -1,5 +1,5 @@
 const ScorpionTail: LangHair = {
-  label: 'scorpion tail',
+  label: '蠍尾',
   description: null,
   defName: 'ScorpionTail'
 }

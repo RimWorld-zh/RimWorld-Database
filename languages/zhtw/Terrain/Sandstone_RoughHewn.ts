@@ -1,6 +1,6 @@
 const Sandstone_RoughHewn: LangTerrain = {
-  label: 'rough-hewn sandstone',
-  description: 'Roughly cut natural sandstone floor.',
+  label: '開鑿砂岩地',
+  description: '開鑿出的崎嶇砂岩地面。',
   defName: 'Sandstone_RoughHewn'
 }
 

@@ -1,5 +1,5 @@
 const Leathery: LangStuffCategory = {
-  label: 'leathery',
+  label: '皮質',
   description: null,
   defName: 'Leathery'
 }

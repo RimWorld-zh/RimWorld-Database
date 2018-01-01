@@ -1,5 +1,5 @@
 const BraidedKnot: LangHair = {
-  label: 'braided knot',
+  label: '辮結',
   description: null,
   defName: 'BraidedKnot'
 }

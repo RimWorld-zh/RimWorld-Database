@@ -1,7 +1,7 @@
 const Animals: LangSkill = {
-  skillLabel: 'animals',
-  label: 'animals',
-  description: 'Taming, training, managing, and controlling animals.',
+  skillLabel: '驯兽',
+  label: '驯兽',
+  description: '驯服、训练、管理、控制动物。',
   defName: 'Animals'
 }
 

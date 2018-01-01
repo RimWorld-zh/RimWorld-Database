@@ -1,6 +1,6 @@
 const CarpetDark: LangTerrain = {
-  label: 'dark carpet',
-  description: 'Professional-looking dark gray carpet.',
+  label: '深灰地毯',
+  description: '看起来很专业的深灰色地毯。',
   defName: 'CarpetDark'
 }
 

@@ -1,6 +1,6 @@
 const BorealForest: LangBiome = {
-  label: 'boreal forest',
-  description: 'Forests of coniferous trees. Despite the harsh winters, boreal forests sustain a diverse population of small and large animals, and have warm summers. Snow makes it extremely slow to travel in winter.',
+  label: '寒带森林',
+  description: '针叶林。尽管寒冬严酷，仍然有多种大型和小型动物的群落繁衍着，也有温暖的夏天。冬季的积雪使得出行变得极为缓慢。',
   defName: 'BorealForest'
 }
 

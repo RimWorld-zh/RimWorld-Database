@@ -1,9 +1,9 @@
 const Mechanoid: LangFaction = {
-  fixedName: 'a mechanoid hive',
-  pawnsPlural: 'mechanoids',
+  fixedName: '機械軍團',
+  pawnsPlural: '機器人',
   leaderTitle: 'leader',
-  label: 'mechanoid hive',
-  description: 'A hive of ancient self-replicating machines.',
+  label: '機械軍團',
+  description: '一群可以自我量產的古老機器人組織。',
   defName: 'Mechanoid'
 }
 

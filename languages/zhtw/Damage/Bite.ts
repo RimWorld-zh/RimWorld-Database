@@ -1,5 +1,5 @@
 const Bite: LangDamage = {
-  label: 'bite',
+  label: '咬傷',
   description: null,
   defName: 'Bite'
 }

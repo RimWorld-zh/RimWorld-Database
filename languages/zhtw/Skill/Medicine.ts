@@ -1,7 +1,7 @@
 const Medicine: LangSkill = {
-  skillLabel: 'medicine',
-  label: 'medicine',
-  description: 'Treating wounds and diseases and doing surgery.',
+  skillLabel: '醫療',
+  label: '醫療',
+  description: '治療創傷、醫治疾病及操刀手術。',
   defName: 'Medicine'
 }
 

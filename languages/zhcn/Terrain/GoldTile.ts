@@ -1,6 +1,6 @@
 const GoldTile: LangTerrain = {
-  label: 'gold tile',
-  description: 'The most beautiful and impressive kind of floor. Very expensive and requires a lot of work to build.',
+  label: '金质地砖',
+  description: '最美丽和豪华的一种地板。非常昂贵，铺设时需要大量的工作量。',
   defName: 'GoldTile'
 }
 

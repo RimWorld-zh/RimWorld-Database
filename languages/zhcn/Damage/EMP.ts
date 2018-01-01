@@ -1,5 +1,5 @@
 const EMP: LangDamage = {
-  label: 'EMP',
+  label: '电磁脉冲',
   description: null,
   defName: 'EMP'
 }

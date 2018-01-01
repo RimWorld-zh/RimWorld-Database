@@ -1,5 +1,5 @@
 const Blunt: LangDamage = {
-  label: 'blunt',
+  label: '钝伤',
   description: null,
   defName: 'Blunt'
 }

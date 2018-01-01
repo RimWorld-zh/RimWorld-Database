@@ -1,5 +1,5 @@
 const Soil: LangTerrain = {
-  label: 'soil',
+  label: '土地',
   description: null,
   defName: 'Soil'
 }

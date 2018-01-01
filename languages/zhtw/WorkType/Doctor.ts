@@ -1,8 +1,8 @@
 const Doctor: LangWorkType = {
-  labelShort: 'Doctor',
-  pawnLabel: 'Doctor',
-  label: null,
-  description: 'Treat the sick, bring them food, cheer them up, and perform assigned surgeries. Doctors will care for both colonists and prisoners.',
+  labelShort: '醫生',
+  pawnLabel: '醫生',
+  label: '醫護',
+  description: '醫生會將食物送给無法動彈的人。包括居民和俘虜。',
   defName: 'Doctor'
 }
 

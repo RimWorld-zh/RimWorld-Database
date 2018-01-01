@@ -1,7 +1,7 @@
 const Melee: LangSkill = {
-  skillLabel: 'melee',
-  label: 'melee',
-  description: 'Use of all kinds of melee weapons as well as unarmed combat.',
+  skillLabel: '格鬥',
+  label: '格鬥',
+  description: '各種搏擊武器的應用及徒手戰鬥。',
   defName: 'Melee'
 }
 

@@ -1,6 +1,6 @@
 const WoodPlankFloor: LangTerrain = {
-  label: 'wood floor',
-  description: 'Wood plank flooring. For that warm, homey feeling. While it is easy to lay, it is also flammable.',
+  label: '木地板',
+  description: '木板做的地面，给人一種溫馨的感覺。',
   defName: 'WoodPlankFloor'
 }
 

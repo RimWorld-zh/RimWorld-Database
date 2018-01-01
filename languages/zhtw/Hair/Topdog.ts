@@ -1,5 +1,5 @@
 const Topdog: LangHair = {
-  label: 'topdog',
+  label: '王牌',
   description: null,
   defName: 'Topdog'
 }

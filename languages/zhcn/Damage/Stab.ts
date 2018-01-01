@@ -1,5 +1,5 @@
 const Stab: LangDamage = {
-  label: 'stab',
+  label: '刺伤',
   description: null,
   defName: 'Stab'
 }

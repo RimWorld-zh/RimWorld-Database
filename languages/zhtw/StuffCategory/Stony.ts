@@ -1,5 +1,5 @@
 const Stony: LangStuffCategory = {
-  label: 'stony',
+  label: '石質',
   description: null,
   defName: 'Stony'
 }

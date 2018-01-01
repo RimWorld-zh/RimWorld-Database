@@ -1,5 +1,5 @@
 const Afro: LangHair = {
-  label: 'afro',
+  label: '爆炸头',
   description: null,
   defName: 'Afro'
 }

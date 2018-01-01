@@ -1,9 +1,9 @@
 const Tribe: LangFaction = {
   fixedName: null,
-  pawnsPlural: 'tribespeople',
-  leaderTitle: 'chief',
-  label: 'tribe',
-  description: 'These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.<br/><br/>Some tribes are more aggressive than others; many are open to trade and alliances, even with strange peoples like yourselves. Close cooperation or recruitment will be very difficult because of the vast sociotechnological and linguistic gap between the tribals and yourselves.<br/><br/>Despite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.',
+  pawnsPlural: '土著',
+  leaderTitle: '酋長',
+  label: '部落',
+  description: '這些人已經在這裡生存了很久很久了。或許它們的祖先在一千年前就墜毀在了這裡，或許他們挺過了一場摧毀一切文明科技的大災難。這些部族的人主要由使用原始工具和武器的流浪者組成。<br/><br/>有些部族比其它部族更有攻擊性；很多部族都喜欢交易和結盟，就算和你們這樣的陌生人也一樣。和他們密切合作或者招募他們會因為社會科技和語言差異而變得很麻煩。<br/><br/>儘管他們有明顯的科技劣勢，它們頑強的性格、極多的人數以及在低科技武器的精湛技術讓他們隨時都可能成為危險的敵人。',
   defName: 'Tribe'
 }
 

@@ -1,6 +1,6 @@
 const BurnedWoodPlankFloor: LangTerrain = {
-  label: 'burned wood floor',
-  description: 'Burned-out wood plank flooring.',
+  label: '被烧毁的木地板',
+  description: '被烧毁的木板地面。',
   defName: 'BurnedWoodPlankFloor'
 }
 

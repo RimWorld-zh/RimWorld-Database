@@ -1,5 +1,5 @@
 const WaterMovingShallow: LangTerrain = {
-  label: 'shallow moving water',
+  label: '流動淺水',
   description: null,
   defName: 'WaterMovingShallow'
 }

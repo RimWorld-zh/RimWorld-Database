@@ -1,6 +1,6 @@
 const Desert: LangBiome = {
-  label: 'desert',
-  description: 'A very dry area which supports little life. Deserts can be hot, or quite cold.',
+  label: '沙漠',
+  description: '一個非常乾旱，非常炎熱的地區。這裡的生命非常稀少。',
   defName: 'Desert'
 }
 

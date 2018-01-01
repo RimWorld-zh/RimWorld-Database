@@ -1,5 +1,5 @@
 const Mohawk: LangHair = {
-  label: 'mohawk',
+  label: '莫霍克',
   description: null,
   defName: 'Mohawk'
 }

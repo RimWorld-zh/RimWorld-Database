@@ -1,5 +1,5 @@
 const Smoke: LangDamage = {
-  label: 'smoke',
+  label: '烟',
   description: null,
   defName: 'Smoke'
 }

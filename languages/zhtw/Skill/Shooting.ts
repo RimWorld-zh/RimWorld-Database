@@ -1,7 +1,7 @@
 const Shooting: LangSkill = {
-  skillLabel: 'shooting',
-  label: 'shooting',
-  description: 'Use of all kinds of ranged weapons.',
+  skillLabel: '射擊',
+  label: '射擊',
+  description: '各種射擊及投擲武器的應用。',
   defName: 'Shooting'
 }
 

@@ -1,5 +1,5 @@
 const Burgundy: LangHair = {
-  label: 'burgundy',
+  label: '酒紅色',
   description: null,
   defName: 'Burgundy'
 }

@@ -1,6 +1,6 @@
 const Granite_RoughHewn: LangTerrain = {
-  label: 'rough-hewn granite',
-  description: 'Roughly cut natural granite floor.',
+  label: '開鑿崗岩地',
+  description: '開鑿出的崎嶇花崗岩地面。',
   defName: 'Granite_RoughHewn'
 }
 

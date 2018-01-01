@@ -1,8 +1,8 @@
 const Cooking: LangWorkType = {
-  labelShort: 'Cook',
-  pawnLabel: 'Cook',
-  label: null,
-  description: 'Prepare meals and butcher meat.',
+  labelShort: '廚師',
+  pawnLabel: '廚師',
+  label: '烹飪',
+  description: '廚師會填充儲料槽、屠宰動物並製作料理。',
   defName: 'Cooking'
 }
 

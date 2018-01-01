@@ -1,6 +1,6 @@
 const PavedTile: LangTerrain = {
-  label: 'paved tile',
-  description: 'Utilitarian concrete tiles. Cheap and quick to move around on, but neutral in terms of looks and slow to build.',
+  label: '鋪裝地磚',
+  description: '實用的水泥地磚。在上面行走很迅速，外觀普通而鋪設相當耗時。',
   defName: 'PavedTile'
 }
 

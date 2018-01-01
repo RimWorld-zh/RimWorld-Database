@@ -1,6 +1,6 @@
 const Limestone_RoughHewn: LangTerrain = {
-  label: 'rough-hewn limestone',
-  description: 'Roughly cut natural limestone floor.',
+  label: '粗糙砍凿的石灰岩地面',
+  description: '粗糙砍凿的天然石灰岩地面。',
   defName: 'Limestone_RoughHewn'
 }
 

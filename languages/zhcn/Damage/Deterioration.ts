@@ -1,5 +1,5 @@
 const Deterioration: LangDamage = {
-  label: 'deterioration',
+  label: '老化',
   description: null,
   defName: 'Deterioration'
 }

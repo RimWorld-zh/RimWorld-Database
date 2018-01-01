@@ -1,6 +1,6 @@
 const Slate_RoughHewn: LangTerrain = {
-  label: 'rough-hewn slate',
-  description: 'Roughly cut natural slate floor.',
+  label: '粗糙砍凿的板岩地面',
+  description: '粗糙砍凿的天然板岩地面。',
   defName: 'Slate_RoughHewn'
 }
 

@@ -1,5 +1,5 @@
 const Troubadour: LangHair = {
-  label: 'troubadour',
+  label: '游吟诗人',
   description: null,
   defName: 'Troubadour'
 }

@@ -1,8 +1,8 @@
 const PatientBedRest: LangWorkType = {
-  labelShort: 'Bed rest',
-  pawnLabel: 'Bed rester',
-  label: null,
-  description: 'Rest in bed to recuperate from not-immediately-life-threatening medical problems.',
+  labelShort: '休养',
+  pawnLabel: '病人',
+  label: '休养',
+  description: '非致命的疾病可以通过卧床休养得到恢复。',
   defName: 'PatientBedRest'
 }
 

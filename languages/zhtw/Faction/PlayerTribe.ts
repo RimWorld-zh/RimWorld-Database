@@ -1,9 +1,9 @@
 const PlayerTribe: LangFaction = {
   fixedName: null,
-  pawnsPlural: 'tribespeople',
+  pawnsPlural: '部落民',
   leaderTitle: 'leader',
-  label: 'New Tribe',
-  description: 'Your own tribe.',
+  label: '部落',
+  description: '屬於你的部落。',
   defName: 'PlayerTribe'
 }
 

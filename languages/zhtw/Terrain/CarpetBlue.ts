@@ -1,6 +1,6 @@
 const CarpetBlue: LangTerrain = {
-  label: 'blue carpet',
-  description: 'Toe-hugging plush carpet in a cool blue color.',
+  label: '藍地毯',
+  description: '帶有藍色並十分舒適的地毯。',
   defName: 'CarpetBlue'
 }
 

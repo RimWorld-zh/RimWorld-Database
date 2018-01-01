@@ -1,7 +1,7 @@
 const Artistic: LangSkill = {
-  skillLabel: 'artistic',
-  label: 'artistic',
-  description: 'Crafting art.',
+  skillLabel: '藝術',
+  label: '藝術',
+  description: '創造藝術作品。',
   defName: 'Artistic'
 }
 

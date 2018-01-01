@@ -1,5 +1,5 @@
 const Burn: LangDamage = {
-  label: 'burn',
+  label: '燒傷',
   description: null,
   defName: 'Burn'
 }

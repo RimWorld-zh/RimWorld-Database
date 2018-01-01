@@ -1,5 +1,5 @@
 const MarshyTerrain: LangTerrain = {
-  label: 'marshy soil',
+  label: '沼澤地',
   description: null,
   defName: 'MarshyTerrain'
 }

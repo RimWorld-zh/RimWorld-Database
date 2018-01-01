@@ -1,5 +1,5 @@
 const BrokenAsphalt: LangTerrain = {
-  label: 'broken asphalt',
+  label: '瀝青碎塊',
   description: null,
   defName: 'BrokenAsphalt'
 }

@@ -1,5 +1,5 @@
 const Mop: LangHair = {
-  label: 'mop',
+  label: '蓬松',
   description: null,
   defName: 'Mop'
 }

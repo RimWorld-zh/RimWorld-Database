@@ -1,5 +1,5 @@
 const Frostbite: LangDamage = {
-  label: 'frostbite',
+  label: '凍傷',
   description: null,
   defName: 'Frostbite'
 }

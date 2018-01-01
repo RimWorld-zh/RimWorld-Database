@@ -1,5 +1,5 @@
 const Crush: LangDamage = {
-  label: 'crush',
+  label: '压伤',
   description: null,
   defName: 'Crush'
 }

@@ -1,6 +1,6 @@
 const Limestone_Rough: LangTerrain = {
-  label: 'rough limestone',
-  description: 'Rough, natural limestone ground.',
+  label: '崎嶇石灰岩地',
+  description: '天然的崎嶇石灰岩地面。',
   defName: 'Limestone_Rough'
 }
 

@@ -1,5 +1,5 @@
 const Ice: LangTerrain = {
-  label: 'Ice',
+  label: '冰面',
   description: null,
   defName: 'Ice'
 }

@@ -1,8 +1,8 @@
 const Construction: LangWorkType = {
-  labelShort: 'Construct',
-  pawnLabel: 'Constructor',
-  label: null,
-  description: 'Build things that you\'ve designated, and fix damaged or broken-down buildings.',
+  labelShort: '建築工',
+  pawnLabel: '建築工',
+  label: '建造',
+  description: '建造者會建造你指定的建築。',
   defName: 'Construction'
 }
 

@@ -1,6 +1,6 @@
 const Medium: LangDifficulty = {
-  label: 'Rough',
-  description: 'It\'s a rough planet.<br/><br/>Threats can be quite dangerous. Not recommended until you\'ve got some experience with the game.',
+  label: '普通',
+  description: '在這個星球上生存可不是什麼輕鬆的事，襲擊可能非常致命。建議在獲得足夠遊戲經驗前不要輕易嘗試。',
   defName: 'Medium'
 }
 

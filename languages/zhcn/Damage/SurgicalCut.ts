@@ -1,5 +1,5 @@
 const SurgicalCut: LangDamage = {
-  label: 'surgical cut',
+  label: '手术伤',
   description: null,
   defName: 'SurgicalCut'
 }

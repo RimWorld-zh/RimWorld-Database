@@ -1,6 +1,6 @@
 const Slate_Rough: LangTerrain = {
-  label: 'rough slate',
-  description: 'Rough, natural slate ground.',
+  label: '崎嶇板岩地',
+  description: '天然的崎嶇板岩地面。',
   defName: 'Slate_Rough'
 }
 

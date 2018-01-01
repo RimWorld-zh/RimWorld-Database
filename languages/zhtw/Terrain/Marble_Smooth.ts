@@ -1,6 +1,6 @@
 const Marble_Smooth: LangTerrain = {
-  label: 'smooth marble',
-  description: 'Smoothed natural marble floor.',
+  label: '光滑大理石地',
+  description: '打磨過的光滑大理石地面。',
   defName: 'Marble_Smooth'
 }
 

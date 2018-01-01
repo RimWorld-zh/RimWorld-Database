@@ -1,5 +1,5 @@
 const ExecutionCut: LangDamage = {
-  label: 'execution cut',
+  label: '处决',
   description: null,
   defName: 'ExecutionCut'
 }

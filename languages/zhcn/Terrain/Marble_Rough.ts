@@ -1,6 +1,6 @@
 const Marble_Rough: LangTerrain = {
-  label: 'rough marble',
-  description: 'Rough, natural marble ground.',
+  label: '粗糙的大理石地面',
+  description: '粗糙的天然大理石地面。',
   defName: 'Marble_Rough'
 }
 

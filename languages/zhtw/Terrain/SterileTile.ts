@@ -1,6 +1,6 @@
 const SterileTile: LangTerrain = {
-  label: 'sterile tile',
-  description: 'Sterile tiles help keep the room clean. Very useful in hospitals to prevent patients from getting various infections. Neutral in terms of looks and very slow to build.',
+  label: '無菌地磚',
+  description: '無菌地磚可以保持房間的潔淨，鋪設在醫院空間可有效避免病人受到細菌感染。外觀普通而鋪設相當耗時。',
   defName: 'SterileTile'
 }
 
