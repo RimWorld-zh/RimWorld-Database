@@ -97,6 +97,18 @@ declare interface DataHair extends EData {
   readonly hairTags: ReadonlyArray<string | null> | null;
 }
 
+declare interface DataJoyGiver extends EData {
+  readonly baseChance: number;
+  readonly thingDefs: ReadonlyArray<string | null> | null;
+  readonly jobDef: string | null;
+  readonly joyKind: string | null;
+  readonly desireSit: boolean;
+  readonly pctPawnsEverDo: number;
+  readonly unroofedOnly: boolean;
+  readonly requiredCapacities: ReadonlyArray<string | null> | null;
+  readonly canDoWhileInBed: boolean;
+}
+
 declare interface DataJoyKind extends EData {
   readonly jobs: ReadonlyArray<string | null> | null;
   readonly joyGivers: ReadonlyArray<string | null> | null;
@@ -266,6 +278,28 @@ declare interface DatabaseHair {
   readonly GreasySwoop: DataHair;
   readonly Curly: DataHair;
   readonly Scatman: DataHair;
+}
+
+
+declare interface DatabaseJoyGiver {
+  readonly Skygaze: DataJoyGiver;
+  readonly Meditate: DataJoyGiver;
+  readonly Pray: DataJoyGiver;
+  readonly GoForWalk: DataJoyGiver;
+  readonly BuildSnowman: DataJoyGiver;
+  readonly VisitGrave: DataJoyGiver;
+  readonly ViewArt: DataJoyGiver;
+  readonly SocialRelax: DataJoyGiver;
+  readonly VisitSickPawn: DataJoyGiver;
+  readonly TakeDrug: DataJoyGiver;
+  readonly EatChocolate: DataJoyGiver;
+  readonly PlayHorseshoes: DataJoyGiver;
+  readonly PlayHoopstone: DataJoyGiver;
+  readonly PlayBilliards: DataJoyGiver;
+  readonly PlayChess: DataJoyGiver;
+  readonly PlayPoker: DataJoyGiver;
+  readonly WatchTelevision: DataJoyGiver;
+  readonly UseTelescope: DataJoyGiver;
 }
 
 
