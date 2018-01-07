@@ -25,6 +25,9 @@ declare interface LangJob extends ELang {
 declare interface LangJoyKind extends ELang {
 }
 
+declare interface LangMainButton extends ELang {
+}
+
 declare interface LangNeed extends ELang {
 }
 
@@ -281,6 +284,21 @@ declare interface LangbaseJoyKind {
   readonly GamingCerebral: LangJoyKind;
   readonly Passive: LangJoyKind;
   readonly Study: LangJoyKind;
+}
+
+
+declare interface LangbaseMainButton {
+  readonly Inspect: LangMainButton;
+  readonly Architect: LangMainButton;
+  readonly Work: LangMainButton;
+  readonly Restrict: LangMainButton;
+  readonly Assign: LangMainButton;
+  readonly Animals: LangMainButton;
+  readonly Research: LangMainButton;
+  readonly World: LangMainButton;
+  readonly History: LangMainButton;
+  readonly Factions: LangMainButton;
+  readonly Menu: LangMainButton;
 }
 
 

@@ -134,6 +134,14 @@ declare interface DataJoyKind extends EData {
   readonly ingestibleThings: ReadonlyArray<string | null> | null;
 }
 
+declare interface DataMainButton extends EData {
+  readonly buttonVisible: boolean;
+  readonly order: number;
+  readonly defaultHotKey: KeyCode;
+  readonly validWithoutMap: boolean;
+  readonly hotKey: string | null;
+}
+
 declare interface DataNeed extends EData {
   readonly minIntelligence: Intelligence;
   readonly colonistAndPrisonersOnly: boolean;
@@ -477,6 +485,21 @@ declare interface DatabaseJoyKind {
   readonly GamingCerebral: DataJoyKind;
   readonly Passive: DataJoyKind;
   readonly Study: DataJoyKind;
+}
+
+
+declare interface DatabaseMainButton {
+  readonly Inspect: DataMainButton;
+  readonly Architect: DataMainButton;
+  readonly Work: DataMainButton;
+  readonly Restrict: DataMainButton;
+  readonly Assign: DataMainButton;
+  readonly Animals: DataMainButton;
+  readonly Research: DataMainButton;
+  readonly World: DataMainButton;
+  readonly History: DataMainButton;
+  readonly Factions: DataMainButton;
+  readonly Menu: DataMainButton;
 }
 
 
