@@ -18,6 +18,10 @@ declare interface LangFaction extends ELang {
 declare interface LangHair extends ELang {
 }
 
+declare interface LangJob extends ELang {
+  readonly reportString: string | null;
+}
+
 declare interface LangJoyKind extends ELang {
 }
 
@@ -135,6 +139,131 @@ declare interface LangbaseHair {
   readonly GreasySwoop: LangHair;
   readonly Curly: LangHair;
   readonly Scatman: LangHair;
+}
+
+
+declare interface LangbaseJob {
+  readonly Nuzzle: LangJob;
+  readonly Mate: LangJob;
+  readonly LayEgg: LangJob;
+  readonly PredatorHunt: LangJob;
+  readonly Maintain: LangJob;
+  readonly PrepareCaravan_GatherItems: LangJob;
+  readonly PrepareCaravan_GatherPawns: LangJob;
+  readonly MarryAdjacentPawn: LangJob;
+  readonly SpectateCeremony: LangJob;
+  readonly StandAndBeSociallyActive: LangJob;
+  readonly Skygaze: LangJob;
+  readonly Meditate: LangJob;
+  readonly Pray: LangJob;
+  readonly GoForWalk: LangJob;
+  readonly BuildSnowman: LangJob;
+  readonly VisitGrave: LangJob;
+  readonly ViewArt: LangJob;
+  readonly SocialRelax: LangJob;
+  readonly VisitSickPawn: LangJob;
+  readonly PlayHorseshoes: LangJob;
+  readonly PlayHoopstone: LangJob;
+  readonly PlayChess: LangJob;
+  readonly PlayBilliards: LangJob;
+  readonly PlayPoker: LangJob;
+  readonly WatchTelevision: LangJob;
+  readonly UseTelescope: LangJob;
+  readonly Goto: LangJob;
+  readonly GotoSafeTemperature: LangJob;
+  readonly GotoWander: LangJob;
+  readonly Wait: LangJob;
+  readonly WaitMaintainPosture: LangJob;
+  readonly WaitDowned: LangJob;
+  readonly WaitSafeTemperature: LangJob;
+  readonly WaitWander: LangJob;
+  readonly WaitCombat: LangJob;
+  readonly AttackStatic: LangJob;
+  readonly AttackMelee: LangJob;
+  readonly SocialFight: LangJob;
+  readonly UseVerbOnThing: LangJob;
+  readonly Equip: LangJob;
+  readonly TakeInventory: LangJob;
+  readonly GiveToPackAnimal: LangJob;
+  readonly Wear: LangJob;
+  readonly RemoveApparel: LangJob;
+  readonly DropEquipment: LangJob;
+  readonly Strip: LangJob;
+  readonly Open: LangJob;
+  readonly RearmTrap: LangJob;
+  readonly Refuel: LangJob;
+  readonly FillFermentingBarrel: LangJob;
+  readonly TakeBeerOutOfFermentingBarrel: LangJob;
+  readonly UnloadInventory: LangJob;
+  readonly UnloadYourInventory: LangJob;
+  readonly ManTurret: LangJob;
+  readonly EnterCryptosleepCasket: LangJob;
+  readonly UseNeurotrainer: LangJob;
+  readonly UseArtifact: LangJob;
+  readonly UseItem: LangJob;
+  readonly TriggerFirefoamPopper: LangJob;
+  readonly ClearSnow: LangJob;
+  readonly Vomit: LangJob;
+  readonly Flick: LangJob;
+  readonly TradeWithPawn: LangJob;
+  readonly Flee: LangJob;
+  readonly FleeAndCower: LangJob;
+  readonly EnterTransporter: LangJob;
+  readonly Resurrect: LangJob;
+  readonly Insult: LangJob;
+  readonly HaulCorpseToPublicPlace: LangJob;
+  readonly InducePrisonerToEscape: LangJob;
+  readonly Ignite: LangJob;
+  readonly BeatFire: LangJob;
+  readonly ExtinguishSelf: LangJob;
+  readonly Ingest: LangJob;
+  readonly LayDown: LangJob;
+  readonly Lovin: LangJob;
+  readonly HaulToCell: LangJob;
+  readonly HaulToContainer: LangJob;
+  readonly Steal: LangJob;
+  readonly Kidnap: LangJob;
+  readonly CarryDownedPawnToExit: LangJob;
+  readonly Rescue: LangJob;
+  readonly CarryToCryptosleepCasket: LangJob;
+  readonly Capture: LangJob;
+  readonly Arrest: LangJob;
+  readonly ReleasePrisoner: LangJob;
+  readonly EscortPrisonerToBed: LangJob;
+  readonly TakeWoundedPrisonerToBed: LangJob;
+  readonly TakeToBedToOperate: LangJob;
+  readonly Slaughter: LangJob;
+  readonly Milk: LangJob;
+  readonly Shear: LangJob;
+  readonly Tame: LangJob;
+  readonly Train: LangJob;
+  readonly PlaceNoCostFrame: LangJob;
+  readonly FinishFrame: LangJob;
+  readonly Deconstruct: LangJob;
+  readonly Uninstall: LangJob;
+  readonly Repair: LangJob;
+  readonly FixBrokenDownBuilding: LangJob;
+  readonly BuildRoof: LangJob;
+  readonly RemoveRoof: LangJob;
+  readonly FeedPatient: LangJob;
+  readonly TendPatient: LangJob;
+  readonly DeliverFood: LangJob;
+  readonly DoBill: LangJob;
+  readonly OperateDeepDrill: LangJob;
+  readonly Clean: LangJob;
+  readonly Research: LangJob;
+  readonly Hunt: LangJob;
+  readonly UseCommsConsole: LangJob;
+  readonly Mine: LangJob;
+  readonly SmoothFloor: LangJob;
+  readonly RemoveFloor: LangJob;
+  readonly Sow: LangJob;
+  readonly Harvest: LangJob;
+  readonly CutPlant: LangJob;
+  readonly PrisonerFriendlyChat: LangJob;
+  readonly PrisonerAttemptRecruit: LangJob;
+  readonly PrisonerExecution: LangJob;
+  readonly BuryCorpse: LangJob;
 }
 
 

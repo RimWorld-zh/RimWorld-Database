@@ -1,0 +1,21 @@
+const PlayBilliards: DataJob = {
+  playerInterruptible: true,
+  checkOverrideOnDamage: CheckJobOverrideOnDamageMode.Always,
+  alwaysShowWeapon: false,
+  neverShowWeapon: false,
+  suspendable: true,
+  casualInterruptible: true,
+  collideWithPawns: false,
+  isIdle: false,
+  taleOnCompletion: 'PlayedGame',
+  makeTargetPrisoner: false,
+  joyDuration: 4000,
+  joyMaxParticipants: 2,
+  joyGainRate: 1.3,
+  joySkill: 'Shooting',
+  joyXpPerTick: 0.004,
+  joyKind: 'GamingDexterity',
+  defName: 'PlayBilliards'
+}
+
+export default PlayBilliards;

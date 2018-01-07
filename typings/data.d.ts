@@ -97,6 +97,25 @@ declare interface DataHair extends EData {
   readonly hairTags: ReadonlyArray<string | null> | null;
 }
 
+declare interface DataJob extends EData {
+  readonly playerInterruptible: boolean;
+  readonly checkOverrideOnDamage: CheckJobOverrideOnDamageMode;
+  readonly alwaysShowWeapon: boolean;
+  readonly neverShowWeapon: boolean;
+  readonly suspendable: boolean;
+  readonly casualInterruptible: boolean;
+  readonly collideWithPawns: boolean;
+  readonly isIdle: boolean;
+  readonly taleOnCompletion: string | null;
+  readonly makeTargetPrisoner: boolean;
+  readonly joyDuration: number;
+  readonly joyMaxParticipants: number;
+  readonly joyGainRate: number;
+  readonly joySkill: string | null;
+  readonly joyXpPerTick: number;
+  readonly joyKind: string | null;
+}
+
 declare interface DataJoyGiver extends EData {
   readonly baseChance: number;
   readonly thingDefs: ReadonlyArray<string | null> | null;
@@ -278,6 +297,131 @@ declare interface DatabaseHair {
   readonly GreasySwoop: DataHair;
   readonly Curly: DataHair;
   readonly Scatman: DataHair;
+}
+
+
+declare interface DatabaseJob {
+  readonly Nuzzle: DataJob;
+  readonly Mate: DataJob;
+  readonly LayEgg: DataJob;
+  readonly PredatorHunt: DataJob;
+  readonly Maintain: DataJob;
+  readonly PrepareCaravan_GatherItems: DataJob;
+  readonly PrepareCaravan_GatherPawns: DataJob;
+  readonly MarryAdjacentPawn: DataJob;
+  readonly SpectateCeremony: DataJob;
+  readonly StandAndBeSociallyActive: DataJob;
+  readonly Skygaze: DataJob;
+  readonly Meditate: DataJob;
+  readonly Pray: DataJob;
+  readonly GoForWalk: DataJob;
+  readonly BuildSnowman: DataJob;
+  readonly VisitGrave: DataJob;
+  readonly ViewArt: DataJob;
+  readonly SocialRelax: DataJob;
+  readonly VisitSickPawn: DataJob;
+  readonly PlayHorseshoes: DataJob;
+  readonly PlayHoopstone: DataJob;
+  readonly PlayChess: DataJob;
+  readonly PlayBilliards: DataJob;
+  readonly PlayPoker: DataJob;
+  readonly WatchTelevision: DataJob;
+  readonly UseTelescope: DataJob;
+  readonly Goto: DataJob;
+  readonly GotoSafeTemperature: DataJob;
+  readonly GotoWander: DataJob;
+  readonly Wait: DataJob;
+  readonly WaitMaintainPosture: DataJob;
+  readonly WaitDowned: DataJob;
+  readonly WaitSafeTemperature: DataJob;
+  readonly WaitWander: DataJob;
+  readonly WaitCombat: DataJob;
+  readonly AttackStatic: DataJob;
+  readonly AttackMelee: DataJob;
+  readonly SocialFight: DataJob;
+  readonly UseVerbOnThing: DataJob;
+  readonly Equip: DataJob;
+  readonly TakeInventory: DataJob;
+  readonly GiveToPackAnimal: DataJob;
+  readonly Wear: DataJob;
+  readonly RemoveApparel: DataJob;
+  readonly DropEquipment: DataJob;
+  readonly Strip: DataJob;
+  readonly Open: DataJob;
+  readonly RearmTrap: DataJob;
+  readonly Refuel: DataJob;
+  readonly FillFermentingBarrel: DataJob;
+  readonly TakeBeerOutOfFermentingBarrel: DataJob;
+  readonly UnloadInventory: DataJob;
+  readonly UnloadYourInventory: DataJob;
+  readonly ManTurret: DataJob;
+  readonly EnterCryptosleepCasket: DataJob;
+  readonly UseNeurotrainer: DataJob;
+  readonly UseArtifact: DataJob;
+  readonly UseItem: DataJob;
+  readonly TriggerFirefoamPopper: DataJob;
+  readonly ClearSnow: DataJob;
+  readonly Vomit: DataJob;
+  readonly Flick: DataJob;
+  readonly TradeWithPawn: DataJob;
+  readonly Flee: DataJob;
+  readonly FleeAndCower: DataJob;
+  readonly EnterTransporter: DataJob;
+  readonly Resurrect: DataJob;
+  readonly Insult: DataJob;
+  readonly HaulCorpseToPublicPlace: DataJob;
+  readonly InducePrisonerToEscape: DataJob;
+  readonly Ignite: DataJob;
+  readonly BeatFire: DataJob;
+  readonly ExtinguishSelf: DataJob;
+  readonly Ingest: DataJob;
+  readonly LayDown: DataJob;
+  readonly Lovin: DataJob;
+  readonly HaulToCell: DataJob;
+  readonly HaulToContainer: DataJob;
+  readonly Steal: DataJob;
+  readonly Kidnap: DataJob;
+  readonly CarryDownedPawnToExit: DataJob;
+  readonly Rescue: DataJob;
+  readonly CarryToCryptosleepCasket: DataJob;
+  readonly Capture: DataJob;
+  readonly Arrest: DataJob;
+  readonly ReleasePrisoner: DataJob;
+  readonly EscortPrisonerToBed: DataJob;
+  readonly TakeWoundedPrisonerToBed: DataJob;
+  readonly TakeToBedToOperate: DataJob;
+  readonly Slaughter: DataJob;
+  readonly Milk: DataJob;
+  readonly Shear: DataJob;
+  readonly Tame: DataJob;
+  readonly Train: DataJob;
+  readonly PlaceNoCostFrame: DataJob;
+  readonly FinishFrame: DataJob;
+  readonly Deconstruct: DataJob;
+  readonly Uninstall: DataJob;
+  readonly Repair: DataJob;
+  readonly FixBrokenDownBuilding: DataJob;
+  readonly BuildRoof: DataJob;
+  readonly RemoveRoof: DataJob;
+  readonly FeedPatient: DataJob;
+  readonly TendPatient: DataJob;
+  readonly DeliverFood: DataJob;
+  readonly DoBill: DataJob;
+  readonly OperateDeepDrill: DataJob;
+  readonly Clean: DataJob;
+  readonly Research: DataJob;
+  readonly Hunt: DataJob;
+  readonly UseCommsConsole: DataJob;
+  readonly Mine: DataJob;
+  readonly SmoothFloor: DataJob;
+  readonly RemoveFloor: DataJob;
+  readonly Sow: DataJob;
+  readonly Harvest: DataJob;
+  readonly CutPlant: DataJob;
+  readonly PrisonerFriendlyChat: DataJob;
+  readonly PrisonerAttemptRecruit: DataJob;
+  readonly PrisonerExecution: DataJob;
+  readonly BuryCorpse: DataJob;
 }
 
 

@@ -1,5 +1,11 @@
 // Declaration for enum types.
 
+declare enum CheckJobOverrideOnDamageMode {
+  Never,
+  OnlyIfInstigatorNotJobTarget,
+  Always,
+}
+
 declare enum HairGender {
   Male,
   MaleUsually,
