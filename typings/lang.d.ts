@@ -37,6 +37,10 @@ declare interface LangMainButton extends ELang {
 declare interface LangNeed extends ELang {
 }
 
+declare interface LangResearchProject extends ELang {
+  readonly descriptionDiscovered: string | null;
+}
+
 declare interface LangSkill extends ELang {
   readonly skillLabel: string | null;
 }
@@ -405,6 +409,76 @@ declare interface LangbaseNeed {
   readonly Beauty: LangNeed;
   readonly Comfort: LangNeed;
   readonly Space: LangNeed;
+}
+
+
+declare interface LangbaseResearchProject {
+  readonly RecurveBow: LangResearchProject;
+  readonly Pemmican: LangResearchProject;
+  readonly PassiveCooler: LangResearchProject;
+  readonly Devilstrand: LangResearchProject;
+  readonly PsychoidBrewing: LangResearchProject;
+  readonly Brewing: LangResearchProject;
+  readonly Bedrolls: LangResearchProject;
+  readonly Beds: LangResearchProject;
+  readonly CarpetMaking: LangResearchProject;
+  readonly Smithing: LangResearchProject;
+  readonly Stonecutting: LangResearchProject;
+  readonly ComplexClothing: LangResearchProject;
+  readonly DrugProduction: LangResearchProject;
+  readonly Electricity: LangResearchProject;
+  readonly PsychiteRefining: LangResearchProject;
+  readonly WakeUpProduction: LangResearchProject;
+  readonly GoJuiceProduction: LangResearchProject;
+  readonly PenoxycylineProduction: LangResearchProject;
+  readonly LongBlades: LangResearchProject;
+  readonly Greatbows: LangResearchProject;
+  readonly Batteries: LangResearchProject;
+  readonly Refining: LangResearchProject;
+  readonly NutrientPaste: LangResearchProject;
+  readonly SolarPanels: LangResearchProject;
+  readonly AirConditioning: LangResearchProject;
+  readonly Autodoors: LangResearchProject;
+  readonly Hydroponics: LangResearchProject;
+  readonly ElectricSmelting: LangResearchProject;
+  readonly PackagedSurvivalMeal: LangResearchProject;
+  readonly ElectricCremation: LangResearchProject;
+  readonly ColoredLights: LangResearchProject;
+  readonly Machining: LangResearchProject;
+  readonly IEDs: LangResearchProject;
+  readonly IEDIncendiary: LangResearchProject;
+  readonly Mortars: LangResearchProject;
+  readonly Gunsmithing: LangResearchProject;
+  readonly BlowbackOperation: LangResearchProject;
+  readonly GasOperation: LangResearchProject;
+  readonly PrecisionRifling: LangResearchProject;
+  readonly SmokepopBelt: LangResearchProject;
+  readonly MicroelectronicsBasics: LangResearchProject;
+  readonly TubeTelevision: LangResearchProject;
+  readonly GunTurrets: LangResearchProject;
+  readonly Firefoam: LangResearchProject;
+  readonly MoisturePump: LangResearchProject;
+  readonly GeothermalPower: LangResearchProject;
+  readonly HospitalBed: LangResearchProject;
+  readonly TransportPod: LangResearchProject;
+  readonly MedicineProduction: LangResearchProject;
+  readonly MultiAnalyzer: LangResearchProject;
+  readonly LongRangeMineralScanner: LangResearchProject;
+  readonly GroundPenetratingScanner: LangResearchProject;
+  readonly DeepDrilling: LangResearchProject;
+  readonly VitalsMonitor: LangResearchProject;
+  readonly ComponentAssembly: LangResearchProject;
+  readonly MultibarrelWeapons: LangResearchProject;
+  readonly Cryptosleep: LangResearchProject;
+  readonly PoweredArmor: LangResearchProject;
+  readonly ShieldBelt: LangResearchProject;
+  readonly ChargedShot: LangResearchProject;
+  readonly ShipBasics: LangResearchProject;
+  readonly ShipCryptosleep: LangResearchProject;
+  readonly ShipReactor: LangResearchProject;
+  readonly ShipEngine: LangResearchProject;
+  readonly ShipComputerCore: LangResearchProject;
+  readonly ShipSensorCluster: LangResearchProject;
 }
 
 

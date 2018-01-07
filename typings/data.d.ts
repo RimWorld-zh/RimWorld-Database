@@ -170,6 +170,18 @@ declare interface DataNeed extends EData {
   readonly freezeWhileSleeping: boolean;
 }
 
+declare interface DataResearchProject extends EData {
+  readonly techLevel: TechLevel;
+  readonly baseCost: number;
+  readonly prerequisites: ReadonlyArray<string | null> | null;
+  readonly requiredByThis: ReadonlyArray<string | null> | null;
+  readonly requiredResearchBuilding: string | null;
+  readonly requiredResearchFacilities: ReadonlyArray<string | null> | null;
+  readonly tags: ReadonlyArray<string | null> | null;
+  readonly researchViewX: number;
+  readonly researchViewY: number;
+}
+
 declare interface DataSkill extends EData {
   readonly workTags: ReadonlyArray<WorkTags> | null;
 }
@@ -609,6 +621,76 @@ declare interface DatabaseNeed {
   readonly Beauty: DataNeed;
   readonly Comfort: DataNeed;
   readonly Space: DataNeed;
+}
+
+
+declare interface DatabaseResearchProject {
+  readonly RecurveBow: DataResearchProject;
+  readonly Pemmican: DataResearchProject;
+  readonly PassiveCooler: DataResearchProject;
+  readonly Devilstrand: DataResearchProject;
+  readonly PsychoidBrewing: DataResearchProject;
+  readonly Brewing: DataResearchProject;
+  readonly Bedrolls: DataResearchProject;
+  readonly Beds: DataResearchProject;
+  readonly CarpetMaking: DataResearchProject;
+  readonly Smithing: DataResearchProject;
+  readonly Stonecutting: DataResearchProject;
+  readonly ComplexClothing: DataResearchProject;
+  readonly DrugProduction: DataResearchProject;
+  readonly Electricity: DataResearchProject;
+  readonly PsychiteRefining: DataResearchProject;
+  readonly WakeUpProduction: DataResearchProject;
+  readonly GoJuiceProduction: DataResearchProject;
+  readonly PenoxycylineProduction: DataResearchProject;
+  readonly LongBlades: DataResearchProject;
+  readonly Greatbows: DataResearchProject;
+  readonly Batteries: DataResearchProject;
+  readonly Refining: DataResearchProject;
+  readonly NutrientPaste: DataResearchProject;
+  readonly SolarPanels: DataResearchProject;
+  readonly AirConditioning: DataResearchProject;
+  readonly Autodoors: DataResearchProject;
+  readonly Hydroponics: DataResearchProject;
+  readonly ElectricSmelting: DataResearchProject;
+  readonly PackagedSurvivalMeal: DataResearchProject;
+  readonly ElectricCremation: DataResearchProject;
+  readonly ColoredLights: DataResearchProject;
+  readonly Machining: DataResearchProject;
+  readonly IEDs: DataResearchProject;
+  readonly IEDIncendiary: DataResearchProject;
+  readonly Mortars: DataResearchProject;
+  readonly Gunsmithing: DataResearchProject;
+  readonly BlowbackOperation: DataResearchProject;
+  readonly GasOperation: DataResearchProject;
+  readonly PrecisionRifling: DataResearchProject;
+  readonly SmokepopBelt: DataResearchProject;
+  readonly MicroelectronicsBasics: DataResearchProject;
+  readonly TubeTelevision: DataResearchProject;
+  readonly GunTurrets: DataResearchProject;
+  readonly Firefoam: DataResearchProject;
+  readonly MoisturePump: DataResearchProject;
+  readonly GeothermalPower: DataResearchProject;
+  readonly HospitalBed: DataResearchProject;
+  readonly TransportPod: DataResearchProject;
+  readonly MedicineProduction: DataResearchProject;
+  readonly MultiAnalyzer: DataResearchProject;
+  readonly LongRangeMineralScanner: DataResearchProject;
+  readonly GroundPenetratingScanner: DataResearchProject;
+  readonly DeepDrilling: DataResearchProject;
+  readonly VitalsMonitor: DataResearchProject;
+  readonly ComponentAssembly: DataResearchProject;
+  readonly MultibarrelWeapons: DataResearchProject;
+  readonly Cryptosleep: DataResearchProject;
+  readonly PoweredArmor: DataResearchProject;
+  readonly ShieldBelt: DataResearchProject;
+  readonly ChargedShot: DataResearchProject;
+  readonly ShipBasics: DataResearchProject;
+  readonly ShipCryptosleep: DataResearchProject;
+  readonly ShipReactor: DataResearchProject;
+  readonly ShipEngine: DataResearchProject;
+  readonly ShipComputerCore: DataResearchProject;
+  readonly ShipSensorCluster: DataResearchProject;
 }
 
 
