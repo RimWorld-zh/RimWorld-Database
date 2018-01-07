@@ -97,6 +97,11 @@ declare interface DataHair extends EData {
   readonly hairTags: ReadonlyArray<string | null> | null;
 }
 
+declare interface DataJoyKind extends EData {
+  readonly joyGivers: ReadonlyArray<string | null> | null;
+  readonly ingestibleThings: ReadonlyArray<string | null> | null;
+}
+
 declare interface DataSkill extends EData {
   readonly workTags: ReadonlyArray<WorkTags> | null;
 }
@@ -260,6 +265,20 @@ declare interface DatabaseHair {
   readonly GreasySwoop: DataHair;
   readonly Curly: DataHair;
   readonly Scatman: DataHair;
+}
+
+
+declare interface DatabaseJoyKind {
+  readonly Work: DataJoyKind;
+  readonly Meditative: DataJoyKind;
+  readonly Lewd: DataJoyKind;
+  readonly Social: DataJoyKind;
+  readonly Chemical: DataJoyKind;
+  readonly Gluttonous: DataJoyKind;
+  readonly GamingDexterity: DataJoyKind;
+  readonly GamingCerebral: DataJoyKind;
+  readonly Passive: DataJoyKind;
+  readonly Study: DataJoyKind;
 }
 
 

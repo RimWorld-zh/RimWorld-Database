@@ -18,6 +18,9 @@ declare interface LangFaction extends ELang {
 declare interface LangHair extends ELang {
 }
 
+declare interface LangJoyKind extends ELang {
+}
+
 declare interface LangSkill extends ELang {
   readonly skillLabel: string | null;
 }
@@ -132,6 +135,20 @@ declare interface LangbaseHair {
   readonly GreasySwoop: LangHair;
   readonly Curly: LangHair;
   readonly Scatman: LangHair;
+}
+
+
+declare interface LangbaseJoyKind {
+  readonly Work: LangJoyKind;
+  readonly Meditative: LangJoyKind;
+  readonly Lewd: LangJoyKind;
+  readonly Social: LangJoyKind;
+  readonly Chemical: LangJoyKind;
+  readonly Gluttonous: LangJoyKind;
+  readonly GamingDexterity: LangJoyKind;
+  readonly GamingCerebral: LangJoyKind;
+  readonly Passive: LangJoyKind;
+  readonly Study: LangJoyKind;
 }
 
 
