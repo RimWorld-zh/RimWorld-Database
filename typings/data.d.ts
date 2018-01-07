@@ -134,6 +134,15 @@ declare interface DataJoyKind extends EData {
   readonly ingestibleThings: ReadonlyArray<string | null> | null;
 }
 
+declare interface DataKeyBinding extends EData {
+  readonly category: string | null;
+  readonly defaultKeyCodeA: KeyCode;
+  readonly defaultKeyCodeB: KeyCode;
+}
+
+declare interface DataKeyBindingCategory extends EData {
+}
+
 declare interface DataMainButton extends EData {
   readonly buttonVisible: boolean;
   readonly order: number;
@@ -485,6 +494,88 @@ declare interface DatabaseJoyKind {
   readonly GamingCerebral: DataJoyKind;
   readonly Passive: DataJoyKind;
   readonly Study: DataJoyKind;
+}
+
+
+declare interface DatabaseKeyBinding {
+  readonly MapDollyUp: DataKeyBinding;
+  readonly MapDollyDown: DataKeyBinding;
+  readonly MapDollyLeft: DataKeyBinding;
+  readonly MapDollyRight: DataKeyBinding;
+  readonly MapZoomIn: DataKeyBinding;
+  readonly MapZoomOut: DataKeyBinding;
+  readonly TakeScreenshot: DataKeyBinding;
+  readonly ToggleScreenshotMode: DataKeyBinding;
+  readonly SelectNextInCell: DataKeyBinding;
+  readonly TogglePause: DataKeyBinding;
+  readonly TimeSpeedNormal: DataKeyBinding;
+  readonly TimeSpeedFast: DataKeyBinding;
+  readonly TimeSpeedSuperfast: DataKeyBinding;
+  readonly TimeSpeedUltrafast: DataKeyBinding;
+  readonly PreviousColonist: DataKeyBinding;
+  readonly NextColonist: DataKeyBinding;
+  readonly Misc1: DataKeyBinding;
+  readonly Misc2: DataKeyBinding;
+  readonly Misc3: DataKeyBinding;
+  readonly Misc4: DataKeyBinding;
+  readonly Misc5: DataKeyBinding;
+  readonly Misc6: DataKeyBinding;
+  readonly Misc7: DataKeyBinding;
+  readonly Misc8: DataKeyBinding;
+  readonly Misc9: DataKeyBinding;
+  readonly Misc10: DataKeyBinding;
+  readonly Misc11: DataKeyBinding;
+  readonly Misc12: DataKeyBinding;
+  readonly CommandTogglePower: DataKeyBinding;
+  readonly CommandItemForbid: DataKeyBinding;
+  readonly CommandColonistDraft: DataKeyBinding;
+  readonly DesignatorCancel: DataKeyBinding;
+  readonly DesignatorDeconstruct: DataKeyBinding;
+  readonly DesignatorRotateLeft: DataKeyBinding;
+  readonly DesignatorRotateRight: DataKeyBinding;
+  readonly ModifierIncrement10x: DataKeyBinding;
+  readonly ModifierIncrement100x: DataKeyBinding;
+  readonly QueueOrder: DataKeyBinding;
+  readonly TickOnce: DataKeyBinding;
+  readonly ToggleGodMode: DataKeyBinding;
+  readonly ToggleDebugLog: DataKeyBinding;
+  readonly ToggleDebugActionsMenu: DataKeyBinding;
+  readonly ToggleDebugLogMenu: DataKeyBinding;
+  readonly ToggleDebugInspector: DataKeyBinding;
+  readonly ToggleDebugSettingsMenu: DataKeyBinding;
+  readonly MainTab_Architect: DataKeyBinding;
+  readonly MainTab_Work: DataKeyBinding;
+  readonly MainTab_Restrict: DataKeyBinding;
+  readonly MainTab_Assign: DataKeyBinding;
+  readonly MainTab_Animals: DataKeyBinding;
+  readonly MainTab_Research: DataKeyBinding;
+  readonly MainTab_World: DataKeyBinding;
+  readonly MainTab_History: DataKeyBinding;
+  readonly MainTab_Factions: DataKeyBinding;
+}
+
+
+declare interface DatabaseKeyBindingCategory {
+  readonly GameMapCamera: DataKeyBindingCategory;
+  readonly Game: DataKeyBindingCategory;
+  readonly SelectionMisc: DataKeyBindingCategory;
+  readonly SelectionSpecial: DataKeyBindingCategory;
+  readonly Architect: DataKeyBindingCategory;
+  readonly MainTabs: DataKeyBindingCategory;
+  readonly Modifiers: DataKeyBindingCategory;
+  readonly Development: DataKeyBindingCategory;
+  readonly Architect_Orders: DataKeyBindingCategory;
+  readonly Architect_Zone: DataKeyBindingCategory;
+  readonly Architect_Structure: DataKeyBindingCategory;
+  readonly Architect_Production: DataKeyBindingCategory;
+  readonly Architect_Furniture: DataKeyBindingCategory;
+  readonly Architect_Power: DataKeyBindingCategory;
+  readonly Architect_Security: DataKeyBindingCategory;
+  readonly Architect_Misc: DataKeyBindingCategory;
+  readonly Architect_Floors: DataKeyBindingCategory;
+  readonly Architect_Joy: DataKeyBindingCategory;
+  readonly Architect_Ship: DataKeyBindingCategory;
+  readonly Architect_Temperature: DataKeyBindingCategory;
 }
 
 

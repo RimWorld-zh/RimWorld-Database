@@ -25,6 +25,12 @@ declare interface LangJob extends ELang {
 declare interface LangJoyKind extends ELang {
 }
 
+declare interface LangKeyBinding extends ELang {
+}
+
+declare interface LangKeyBindingCategory extends ELang {
+}
+
 declare interface LangMainButton extends ELang {
 }
 
@@ -284,6 +290,88 @@ declare interface LangbaseJoyKind {
   readonly GamingCerebral: LangJoyKind;
   readonly Passive: LangJoyKind;
   readonly Study: LangJoyKind;
+}
+
+
+declare interface LangbaseKeyBinding {
+  readonly MapDollyUp: LangKeyBinding;
+  readonly MapDollyDown: LangKeyBinding;
+  readonly MapDollyLeft: LangKeyBinding;
+  readonly MapDollyRight: LangKeyBinding;
+  readonly MapZoomIn: LangKeyBinding;
+  readonly MapZoomOut: LangKeyBinding;
+  readonly TakeScreenshot: LangKeyBinding;
+  readonly ToggleScreenshotMode: LangKeyBinding;
+  readonly SelectNextInCell: LangKeyBinding;
+  readonly TogglePause: LangKeyBinding;
+  readonly TimeSpeedNormal: LangKeyBinding;
+  readonly TimeSpeedFast: LangKeyBinding;
+  readonly TimeSpeedSuperfast: LangKeyBinding;
+  readonly TimeSpeedUltrafast: LangKeyBinding;
+  readonly PreviousColonist: LangKeyBinding;
+  readonly NextColonist: LangKeyBinding;
+  readonly Misc1: LangKeyBinding;
+  readonly Misc2: LangKeyBinding;
+  readonly Misc3: LangKeyBinding;
+  readonly Misc4: LangKeyBinding;
+  readonly Misc5: LangKeyBinding;
+  readonly Misc6: LangKeyBinding;
+  readonly Misc7: LangKeyBinding;
+  readonly Misc8: LangKeyBinding;
+  readonly Misc9: LangKeyBinding;
+  readonly Misc10: LangKeyBinding;
+  readonly Misc11: LangKeyBinding;
+  readonly Misc12: LangKeyBinding;
+  readonly CommandTogglePower: LangKeyBinding;
+  readonly CommandItemForbid: LangKeyBinding;
+  readonly CommandColonistDraft: LangKeyBinding;
+  readonly DesignatorCancel: LangKeyBinding;
+  readonly DesignatorDeconstruct: LangKeyBinding;
+  readonly DesignatorRotateLeft: LangKeyBinding;
+  readonly DesignatorRotateRight: LangKeyBinding;
+  readonly ModifierIncrement10x: LangKeyBinding;
+  readonly ModifierIncrement100x: LangKeyBinding;
+  readonly QueueOrder: LangKeyBinding;
+  readonly TickOnce: LangKeyBinding;
+  readonly ToggleGodMode: LangKeyBinding;
+  readonly ToggleDebugLog: LangKeyBinding;
+  readonly ToggleDebugActionsMenu: LangKeyBinding;
+  readonly ToggleDebugLogMenu: LangKeyBinding;
+  readonly ToggleDebugInspector: LangKeyBinding;
+  readonly ToggleDebugSettingsMenu: LangKeyBinding;
+  readonly MainTab_Architect: LangKeyBinding;
+  readonly MainTab_Work: LangKeyBinding;
+  readonly MainTab_Restrict: LangKeyBinding;
+  readonly MainTab_Assign: LangKeyBinding;
+  readonly MainTab_Animals: LangKeyBinding;
+  readonly MainTab_Research: LangKeyBinding;
+  readonly MainTab_World: LangKeyBinding;
+  readonly MainTab_History: LangKeyBinding;
+  readonly MainTab_Factions: LangKeyBinding;
+}
+
+
+declare interface LangbaseKeyBindingCategory {
+  readonly GameMapCamera: LangKeyBindingCategory;
+  readonly Game: LangKeyBindingCategory;
+  readonly SelectionMisc: LangKeyBindingCategory;
+  readonly SelectionSpecial: LangKeyBindingCategory;
+  readonly Architect: LangKeyBindingCategory;
+  readonly MainTabs: LangKeyBindingCategory;
+  readonly Modifiers: LangKeyBindingCategory;
+  readonly Development: LangKeyBindingCategory;
+  readonly Architect_Orders: LangKeyBindingCategory;
+  readonly Architect_Zone: LangKeyBindingCategory;
+  readonly Architect_Structure: LangKeyBindingCategory;
+  readonly Architect_Production: LangKeyBindingCategory;
+  readonly Architect_Furniture: LangKeyBindingCategory;
+  readonly Architect_Power: LangKeyBindingCategory;
+  readonly Architect_Security: LangKeyBindingCategory;
+  readonly Architect_Misc: LangKeyBindingCategory;
+  readonly Architect_Floors: LangKeyBindingCategory;
+  readonly Architect_Joy: LangKeyBindingCategory;
+  readonly Architect_Ship: LangKeyBindingCategory;
+  readonly Architect_Temperature: LangKeyBindingCategory;
 }
 
 
