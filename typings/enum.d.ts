@@ -14,6 +14,12 @@ declare enum HairGender {
   Female,
 }
 
+declare enum Intelligence {
+  Animal,
+  ToolUser,
+  Humanlike,
+}
+
 declare enum JobTag {
   Misc,
   MiscWork,

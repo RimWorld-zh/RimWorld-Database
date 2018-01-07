@@ -134,6 +134,25 @@ declare interface DataJoyKind extends EData {
   readonly ingestibleThings: ReadonlyArray<string | null> | null;
 }
 
+declare interface DataNeed extends EData {
+  readonly minIntelligence: Intelligence;
+  readonly colonistAndPrisonersOnly: boolean;
+  readonly colonistsOnly: boolean;
+  readonly onlyIfCausedByHediff: boolean;
+  readonly neverOnPrisoner: boolean;
+  readonly showOnNeedList: boolean;
+  readonly baseLevel: number;
+  readonly major: boolean;
+  readonly listPriority: number;
+  readonly tutorHighlightTag: string | null;
+  readonly showForCaravanMembers: boolean;
+  readonly scaleBar: boolean;
+  readonly fallPerDay: number;
+  readonly seekerRisePerHour: number;
+  readonly seekerFallPerHour: number;
+  readonly freezeWhileSleeping: boolean;
+}
+
 declare interface DataSkill extends EData {
   readonly workTags: ReadonlyArray<WorkTags> | null;
 }
@@ -458,6 +477,24 @@ declare interface DatabaseJoyKind {
   readonly GamingCerebral: DataJoyKind;
   readonly Passive: DataJoyKind;
   readonly Study: DataJoyKind;
+}
+
+
+declare interface DatabaseNeed {
+  readonly Chemical_Alcohol: DataNeed;
+  readonly Chemical_Ambrosia: DataNeed;
+  readonly Chemical_GoJuice: DataNeed;
+  readonly Chemical_Luciferium: DataNeed;
+  readonly Chemical_Psychite: DataNeed;
+  readonly Chemical_Smokeleaf: DataNeed;
+  readonly Chemical_WakeUp: DataNeed;
+  readonly Mood: DataNeed;
+  readonly Food: DataNeed;
+  readonly Rest: DataNeed;
+  readonly Joy: DataNeed;
+  readonly Beauty: DataNeed;
+  readonly Comfort: DataNeed;
+  readonly Space: DataNeed;
 }
 
 
