@@ -1,4 +1,13 @@
 const Meditative: DataJoyKind = {
+  jobs: [
+    'Skygaze',
+    'Meditate',
+    'Pray',
+    'GoForWalk',
+    'BuildSnowman',
+    'VisitGrave',
+    'ViewArt'
+  ],
   joyGivers: [
     'Skygaze',
     'Meditate',

@@ -1,4 +1,9 @@
 const GamingDexterity: DataJoyKind = {
+  jobs: [
+    'PlayHorseshoes',
+    'PlayHoopstone',
+    'PlayBilliards'
+  ],
   joyGivers: [
     'PlayHorseshoes',
     'PlayHoopstone',

@@ -1,4 +1,5 @@
 const Gluttonous: DataJoyKind = {
+  jobs: [],
   joyGivers: [
     'EatChocolate'
   ],

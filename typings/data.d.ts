@@ -98,6 +98,7 @@ declare interface DataHair extends EData {
 }
 
 declare interface DataJoyKind extends EData {
+  readonly jobs: ReadonlyArray<string | null> | null;
   readonly joyGivers: ReadonlyArray<string | null> | null;
   readonly ingestibleThings: ReadonlyArray<string | null> | null;
 }

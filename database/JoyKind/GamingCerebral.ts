@@ -1,4 +1,8 @@
 const GamingCerebral: DataJoyKind = {
+  jobs: [
+    'PlayChess',
+    'PlayPoker'
+  ],
   joyGivers: [
     'PlayChess',
     'PlayPoker'

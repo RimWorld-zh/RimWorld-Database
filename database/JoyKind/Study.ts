@@ -1,4 +1,7 @@
 const Study: DataJoyKind = {
+  jobs: [
+    'UseTelescope'
+  ],
   joyGivers: [
     'UseTelescope'
   ],

@@ -1,4 +1,5 @@
 const Chemical: DataJoyKind = {
+  jobs: [],
   joyGivers: [
     'TakeDrug'
   ],

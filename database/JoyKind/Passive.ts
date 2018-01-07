@@ -1,4 +1,7 @@
 const Passive: DataJoyKind = {
+  jobs: [
+    'WatchTelevision'
+  ],
   joyGivers: [
     'WatchTelevision'
   ],

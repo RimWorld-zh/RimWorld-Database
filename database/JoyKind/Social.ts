@@ -1,4 +1,8 @@
 const Social: DataJoyKind = {
+  jobs: [
+    'SocialRelax',
+    'VisitSickPawn'
+  ],
   joyGivers: [
     'SocialRelax',
     'VisitSickPawn'
