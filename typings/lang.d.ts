@@ -25,6 +25,9 @@ declare interface LangJob extends ELang {
 declare interface LangJoyKind extends ELang {
 }
 
+declare interface LangNeed extends ELang {
+}
+
 declare interface LangSkill extends ELang {
   readonly skillLabel: string | null;
 }
@@ -278,6 +281,24 @@ declare interface LangbaseJoyKind {
   readonly GamingCerebral: LangJoyKind;
   readonly Passive: LangJoyKind;
   readonly Study: LangJoyKind;
+}
+
+
+declare interface LangbaseNeed {
+  readonly Chemical_Alcohol: LangNeed;
+  readonly Chemical_Ambrosia: LangNeed;
+  readonly Chemical_GoJuice: LangNeed;
+  readonly Chemical_Luciferium: LangNeed;
+  readonly Chemical_Psychite: LangNeed;
+  readonly Chemical_Smokeleaf: LangNeed;
+  readonly Chemical_WakeUp: LangNeed;
+  readonly Mood: LangNeed;
+  readonly Food: LangNeed;
+  readonly Rest: LangNeed;
+  readonly Joy: LangNeed;
+  readonly Beauty: LangNeed;
+  readonly Comfort: LangNeed;
+  readonly Space: LangNeed;
 }
 
 
